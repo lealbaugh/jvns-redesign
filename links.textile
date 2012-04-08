@@ -1,5 +1,5 @@
 ---
-title: Links
+title: "- Links"
 header: nice things on the internet
 layout: page
 ---
@@ -15,6 +15,7 @@ layout: page
 h3. montreal
 * "Montreal Ouvert":http://montrealouvert.net/, and "the data":http://donnees.ville.montreal.qc.ca/
 * "montreal city weblog":http://w5.montreal.com/mtlweblog/
+* "Santropol Roulant":http://www.santropolroulant.org
 
 h3. webcomics
 * "smbc":http://smbc-comics.com/
