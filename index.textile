@@ -1,0 +1,6 @@
+---
+header: welcome
+layout: page
+---
+
+Hi! I am trying out "jekyll":https://github.com/mojombo/jekyll here. So far it is pretty awesome.

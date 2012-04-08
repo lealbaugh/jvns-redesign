@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"  />
+    <meta name="author" content="Julia Evans" />
+    <link rel="stylesheet" type="text/css" href="css/all.css" />
+    <link rel="stylesheet" type="text/css" href="/css/default.css" />
+    <link rel="stylesheet" type="text/css" href="/css/pretty_code.css" />
+
+    <title>Julia Evans {{page.title}}</title>
+  </head>
+
+  <body>
+    <div id="wrap">
+      <div id="header">
+        <h1><a href="/" class="orange4"><div id="logo"></div>julia <span class="orange2">evans</span></a></h1>
+        <div class="slogan">
+          <a href="index.html" class="orange4">home</a>
+          <a href="about.html" class="orange4">about</a>
+          <a href="projects.html" class="orange4">projects</a> 
+          <a href="links.html" class="orange4">links</a> 
+          <a href="http://github.com/jvns" class="orange4">github</a>
+        </div>
+      </div>
+
+      <div id="content">  
+        <div id="home">
+          <h2 class="orange4">{{page.header}}</h2>
+          {{content}}
+        </div>
+      </div>
+      <div id="push"></div>
+    </div>
+    <div id="footer" class="orange4">
+      &copy; 2012 <a href="/">Julia Evans</a> || julia@jvns.ca
+    </div>
+</body>
+</html>
+
