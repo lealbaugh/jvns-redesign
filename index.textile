@@ -3,16 +3,5 @@ header: welcome
 layout: page
 ---
 
-Hi! I am trying out "jekyll":https://github.com/mojombo/jekyll here. So far it is pretty awesome.
-
-<div class="posts">
-{% for post in site.posts limit: 5 %}
-  <div class="post">
-    <h3>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-            <span>({{ post.date | date:"%Y-%m-%d" }})</span>
-    </h3>
-    </br> <em>{{ post.content }} </em>
-    </div>
-  {% endfor %}
-</ul>
+Right now this is mostly just me playing with Jekyll and Twitter Bootstrap,
+but there is Actual Content forthcoming.
