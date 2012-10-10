@@ -4,3 +4,14 @@ lsi:         false
 pygments:    true
 markdown:    maruku
 permalink:   date
+navigation:
+- text: home
+  url: /index.html
+- text: about
+  url: /about.html
+- text: projects
+  url: /projects.html
+- text: links
+  url: /links.html
+- text: github
+  url: http://github.com/jvns/
