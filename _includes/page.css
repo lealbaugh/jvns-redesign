@@ -1,8 +1,14 @@
 /* I am a mess. don't look at me! */
 
-.orange1 { color: #B23600; }
-.orange2 { color: #FF8A00; }
-.orange3 { color: #fba919; }
-.orange4 { color: #CC5400; }
-.orange5 { color: #B21E00; }
+.lightorange { color: #FF8A00; }
+.darkorange { color: #c50; }
 
+h2 {
+    font-size:18px;
+    line-height:20px;
+}
+
+h1 a:hover {
+    text-decoration:none;
+    color:#C50;
+}
