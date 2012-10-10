@@ -1,7 +1,0 @@
----
-title: "- About"
-header: a couple things
-layout: page
----
-
-I live in Montréal, Québec. I recently finished a master's in computer science at McGill, studying topological quantum computing. I like "open data":http://montrealouvert.net, mangos, fun math, and the color orange.
