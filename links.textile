@@ -1,5 +1,5 @@
 ---
-title: "- Links"
+title: Links
 header: nice things on the internet
 layout: page
 ---
