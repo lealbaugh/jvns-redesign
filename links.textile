@@ -26,3 +26,5 @@ h3. webcomics
 
 h3. friends
 * my friend "Anton":http://cat-bus.com made a "SMS app":http://www.cat-bus.com/2011/10/514-buses-get-montreal-bus-schedules-via-cell-phone/ to get bus schedules in Montréal
+* "Monica":http://www.dinculescu.com
+* "Tavish":http://tavisharmstrong.com
