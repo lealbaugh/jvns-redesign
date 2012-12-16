@@ -26,3 +26,7 @@ h3 {
   margin: -10px 0 10px;
   color: #FF8A00;
 }
+
+.tr {
+    text-align:right;
+}

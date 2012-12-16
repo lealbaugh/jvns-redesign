@@ -1,20 +1,15 @@
 ---
-header: welcome
+header: blog posts
 layout: page
 ---
 
-Hi! I am trying out "jekyll":https://github.com/mojombo/jekyll here. So far it is pretty awesome.
 
 <div class="posts">
-{% for post in site.posts limit: 5 %}
+{% for post in site.posts  %}
     <div class="post">
         <h3>
-            <a href="{{ post.url }}">{{ post.title }}</a>
+            <a href="{{ post.url }}">{{ post.date | date:"%Y-%m-%d" }} -- {{ post.title }}</a>
         </h3>
-        <span class="post-date">{{ post.date | date:"%Y-%m-%d" }}</span>
-        <div class="post-content">
-            {{ post.content }}
-        </div>
     </div>
 {% endfor %}
 </div>
