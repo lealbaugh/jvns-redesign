@@ -1,0 +1,11 @@
+---
+title: "- Contact"
+header: how to find me
+layout: page
+---
+
+Feel to email me at julia {at} this website.
+
+You can also find me on "github":http://github.com/jvns.
+
+
