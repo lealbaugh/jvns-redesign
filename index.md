@@ -17,7 +17,7 @@ which is pretty fun.
         <h3> <a href="{{ post.url }}">{{ post.date | date:"%Y-%m-%d" }} -- {{ post.title }}</a> </h3>
         <div class="post-content">
             {{ post.content | more: "excerpt" }}
-            <a href="{{ post.url }}" class="pull-right"> (see more) </a>
+            <a href="{{ post.url }}" align="right"> (see more) </a>
         </div>
     </div>
 {% endfor %}
