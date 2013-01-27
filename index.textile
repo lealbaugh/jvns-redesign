@@ -1,6 +1,0 @@
----
-header: welcome
-layout: page
----
-
-Right now this is mostly just me playing with Jekyll and Twitter Bootstrap, but there is Actual Content forthcoming.
