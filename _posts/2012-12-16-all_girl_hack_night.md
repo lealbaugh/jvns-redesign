@@ -3,7 +3,14 @@ title: "Montreal All-Girl Hack Night #1: AMAZING"
 layout: post
 ---
 
-My awesome friend "Monica":http://www.dinculescu.com and I recently organized the first edition of "Montreal All-Girl Hack Night":http://mtlallgirlhacknight.ca. We kept going to programmer meetups in Montreal and being upset there was usually at most one other woman there. So we decided to try to find out if there are actually women who program out there. (spoiler: yes)
+My awesome friend "Monica":http://www.dinculescu.com and I recently organized
+the first edition of "Montreal All-Girl Hack
+Night":http://mtlallgirlhacknight.ca. We kept going to programmer meetups in
+Montreal and being upset there was usually at most one other woman there. So we
+decided to try to find out if there are actually women who program out there.
+(spoiler: yes)
+
+<!--more-->
 
 In point form:
 
