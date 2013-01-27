@@ -9,6 +9,8 @@ find things out about cool datasets. I'm also co-organizing an event
 called [Montreal All-Girl Hack Night](http://mtlallgirlhacknight.ca)
 which is pretty fun.
 
+I like meeting nice people, writing code, and eating mangos.
+
 <h2 class="darkorange">some recent posts</h2>
 
 <div class="posts">
