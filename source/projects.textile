@@ -1,0 +1,9 @@
+---
+title: "- Projects"
+header: some stuff I've done
+layout: page
+---
+
+* I made a "map":bixi/map of the bike stations in Montreal. "source":https://github.com/jvns/biximap. 
+* At "work":http://evolvingweb.ca, I made a "search interface":http://bibnik.com to the books in Montreal's libraries
+* more things coming soon, I hope.

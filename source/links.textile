@@ -1,0 +1,30 @@
+---
+title: Links
+header: nice things on the internet
+layout: page
+---
+* "ask metafilter":http://ask.metafilter.com/
+* "d3":http://d3js.org/, data visualization in javascript
+* "ING":http://ingdirect.com is a pretty okay bank
+* "Yahoo Pipes":http://pipes.yahoo.com/pipes/ is pretty useful
+* "Geek Feminism":http://geekfeminism.org/
+* people trying out old recipes at "Resurrected Recipes":http://resurrectedrecipes.com
+* "Dear Sugar":http://therumpus.net/sections/dear-sugar/, an advice column
+* "Vi Hart":http://vihart.com/ makes awesome math videos
+
+h3. montreal
+* "Montreal Ouvert":http://montrealouvert.net/, and "the data":http://donnees.ville.montreal.qc.ca/
+* "montreal city weblog":http://w5.montreal.com/mtlweblog/
+* "Santropol Roulant":http://www.santropolroulant.org
+
+h3. webcomics
+* "smbc":http://smbc-comics.com/
+* "xkcd":http://xkcd.com/59
+* "pictures for sad children":http://www.picturesforsadchildren.com/
+* "gunnerkrigg court":http://www.gunnerkrigg.com/index2.php
+* "cat and girl":http://catandgirl.com/
+
+h3. friends
+* my friend "Anton":http://cat-bus.com made a "SMS app":http://www.cat-bus.com/2011/10/514-buses-get-montreal-bus-schedules-via-cell-phone/ to get bus schedules in Montréal
+* "Monica":http://www.dinculescu.com
+* "Tavish":http://tavisharmstrong.com
