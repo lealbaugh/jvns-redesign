@@ -21,4 +21,6 @@ You can see the IPython notebook here:
 It's made using [pandas](http://pandas.pydata.org/) and [IPython notebook](http://ipython.org/notebook.html).
 
 If you download it you can run it yourself and do some more complicated
-analysis.
+analysis. If you're interested in this, come to the next 
+[Python Night](http://montrealpython.org/2013/02/python-nights-3/) on Thursday,
+March 7, where we'll be playing with it.
