@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Transit maps: 1941 vs 2011"
+date: 2013-03-04 08:21
+comments: true
+categories: 
+---
+
+My friend [Anton](http://www.cat-bus.com/) made a super cool map where the
+Montreal transit maps in 1941 and 2011 are overlaid and you can see the changes
+in the transit system. 
+[Look at it here!](http://www.cat-bus.com/2013/03/explore-two-montreal-transit-maps-70-years-apart/)
