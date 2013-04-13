@@ -7,15 +7,41 @@ sharing: false
 footer: true
 ---
 
-I live in Montréal, Canada, and do data mining at a [pretty cool company](http://viascience.com).
+Hi! I'm Julia.
 
-A few things I'm interested in right now:
+I live in Montréal, Canada, and work as a data scientist and programmer
+for some [nice people](http://viascience.com) during the day. My
+background is in pure math (I have a master's in the algebra of quantum
+computing), and right now I'm taking an excursion into the real world
+to see what it's like.
 
-* playing with arduinos
-* organizing around women in technology ([hack night!](http://mtlallgirlhacknight.ca))
+So far the real world is _awesome_.
+
+Most of my programming experience is around web development (I made my
+first CGI script with Perl in 2005). Since then I've learned bits and pieces of
+Python, Java, PHP, Perl, C, Haskell, and SML. I spent a year doing
+[Drupal](http://drupal.org). Those people know how to do supportive and awesome
+open source community.
+
+
+At night, I spend time
+
+* Playing with [bixi](http://bixi.com) data, and other data
+* Organizing ([Montréal All-Girl Hack Night](http://mtlallgirlhacknight.ca))
+* Doing things for [Montréal Python](http://montrealpython.org) and [PyLadies](http://mtl.pyladies.com). 
+  The Python community in Montréal is fantastic and I love it.
+* Cooking (sometimes) exciting things
+
+I'm interested in:
+
+* contributing more to open source
+* learning more statistics
+* if programming classes can help reduce income inequality
+* getting into hardware hacking
 * Python!
 * data analysis (for making the world a better place?)
-* eating mangos
-* learning more statistics
+* ameliorer mon français
+* eating mangoes
 
-I like meeting new people, so if you'd like to chat, get in touch! I'm julia {at} this domain.
+
+If you're interested in talking about any of these things, get in touch! I'm julia {at} this domain.
