@@ -9,19 +9,14 @@ footer: true
 
 Hi! I'm Julia.
 
-I live in Montréal, Canada, and work as a data scientist and programmer
-for some [nice people](http://viascience.com) during the day. My
-background is in pure math (I have a master's in the algebra of quantum
-computing), and right now I'm taking an excursion into the real world
-to see what it's like.
-
-So far the real world is _awesome_.
+I normally live in Montréal, Canada. Right now I'm at [Hacker School](http://hackerschool.com)
+in New York working on becoming a better programmer. It is AWESOME.
 
 Most of my programming experience is around web development (I made my
 first CGI script with Perl in 2005). Since then I've learned bits and pieces of
 Python, Java, PHP, Perl, C, Haskell, and SML. I spent a year doing
 [Drupal](http://drupal.org). Those people know how to do supportive and awesome
-open source community.
+open source community. I also spent the last year working as a data scientist.
 
 
 At night, I spend time
