@@ -31,11 +31,11 @@ However:
 The thing I forgot about open source is that open source (for me!) is
 *scary* and *hard*.  Discussing bugs on mailing lists and issue trackers
 and submitting pull requests is *terrifying*. I have gone to awesome
-code sprints with really lovely supportive people and gone home in tears
-because being new to a project and trying to get work done is sometimes
-*so frustrating*. Like you can spend 12 hours trying to fix a tiny bug
-and get *nowhere*. And say ALL OF THE THINGS THAT ARE CONFUSED AND
-WRONG. IN PUBLIC.
+code sprints with really lovely supportive people and gone home and
+cried because being new to a project and trying to get work done is
+sometimes *so frustrating*. Like you can spend 12 hours trying to fix a
+tiny bug and get *nowhere*. And say ALL OF THE THINGS THAT ARE CONFUSED
+AND WRONG. IN PUBLIC.
 
 HOWEVER!
 
