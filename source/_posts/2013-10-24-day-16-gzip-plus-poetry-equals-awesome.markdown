@@ -15,7 +15,7 @@ I showed this as a Thursday talk at Hacker School today :) I really like how
 you can see the rhyming inside the poem like (rapping... tapping) come out in
 the compression algorithm.
 
-<s>No sound, just gzip.</s> There's accidental sound. You should mute it.
+No sound, just gzip.
 
 You can try it out if you want by cloning
 [https://github.com/jvns/gzip.jl](https://github.com/jvns/gzip.jl) and
@@ -23,7 +23,7 @@ checking out the 'visualization' branch.
 
 *Edit:* Thanks to a suggestion in the comments, here's [the whole poem](https://rawgithub.com/jvns/7155528/raw/ef9785f023fc68d78dc4f61e732007149eec1e69/raven.html) and [Hamlet](http://rawgithub.com/jvns/7155528/raw/8b6e49a1fb99cb919a30a73262894d041e41ce91/hamlet-gzip.html).
 
-<iframe width="960" height="720" src="//www.youtube.com/embed/D2JWSNDgkoE" frameborder="0" allowfullscreen></iframe>
+<iframe width="960" height="720" src="//www.youtube.com/embed/SWBkneyTyPU" frameborder="0" allowfullscreen></iframe>
 
 *Edit:* Some clarifications, for the interested:
 
