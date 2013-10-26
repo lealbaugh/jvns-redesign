@@ -3,14 +3,10 @@ title: Links
 header: nice things on the internet
 layout: page
 ---
+
 * "ask metafilter":http://ask.metafilter.com/
 * "d3":http://d3js.org/, data visualization in javascript
-* "ING":http://ingdirect.com is a pretty okay bank
-* "Yahoo Pipes":http://pipes.yahoo.com/pipes/ is pretty useful
 * "Geek Feminism":http://geekfeminism.org/
-* people trying out old recipes at "Resurrected Recipes":http://resurrectedrecipes.com
-* "Dear Sugar":http://therumpus.net/sections/dear-sugar/, an advice column
-* "Vi Hart":http://vihart.com/ makes awesome math videos
 
 h3. montreal
 * "Montreal Ouvert":http://montrealouvert.net/, and "the data":http://donnees.ville.montreal.qc.ca/
