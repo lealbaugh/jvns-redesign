@@ -6,7 +6,7 @@ comments: true
 categories: coding d3 visualization
 ---
 
-[{%img images/command-graph-small.png %}](http://jvns.ca/projects/unix-command-survey/graph.html)
+[{%img /images/command-graph-small.png %}](http://jvns.ca/projects/unix-command-survey/graph.html)
 
 
 A few months ago I got curious about which unix command line utilities were
