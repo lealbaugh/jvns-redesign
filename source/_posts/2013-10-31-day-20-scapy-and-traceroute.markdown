@@ -42,8 +42,10 @@ into infinite loops.
 If a packet's `ttl` runs out before it replies, the last machine sends back an
 ICMP packet saying "sorry, failed!".
 
-To implement traceroute, we send out a UDP packet with `ttl=i` for
-`i = 1,2,3,...`. Then we look at the reply packet and see if it's
+To implement traceroute, we send out a UDP packet with `ttl=i` for `i =
+1,2,3,...`. Then we look at the reply packet and see if it's a "Time ran out"
+or "That port doesn't exist" error message. In the first case, we keep going,
+and in the second case we're done.
 
 Here's the code! It's 16 lines including comments and everything.
 

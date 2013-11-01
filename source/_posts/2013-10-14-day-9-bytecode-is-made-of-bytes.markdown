@@ -3,7 +3,7 @@ layout: post
 title: "Day 9: Bytecode is made of bytes! CPython isn't scary!"
 date: 2013-10-14 23:27
 comments: true
-categories: 
+categories: hackerschool python compilers
 ---
 
 Today I paired with one of the fantastic Hacker School facilitators,
