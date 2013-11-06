@@ -47,7 +47,9 @@ int main(int argc, char *argv[]) {
 The idea is that we're going to put a string, then make the program jump to
 the address of `foo` instead of returning. I couldn't get this to work on my
 64-bit machine for some reason, so I told it to be 32-bit instead and it
-worked. If you know why please tell me!
+worked. <s>If you know why please tell me!</s> <small>(*Edit:* Figured this out! Turns out I
+just needed to pad the address with 0s until it was 64 bits and then
+experiment with offsets.)</small>
 
 ```
 $ gcc -m32 test.c -o test
@@ -84,10 +86,16 @@ many characters to read into buf, it keeps reading into the stack until the
 string is over and writes over that address. We don't know exactly where the
 address is, so we keep writing it over and over and over again until it works.
 
-Also! Notice how we had to reverse the order of. the memory address to be
+Also! Notice how we had to reverse the order of the memory address to be
 `"\x64\x84\x04\x08"` instead of `\x08\x04\x84\x64`. This is because memory is
 laid out in a little-endian way. "Little-endian" basically means "backwards".
-Intel architectures are always like this. [wikipedia](http://en.wikipedia.org/wiki/Endianness) for more on endianness. 
+Intel architectures are always like this. See [wikipedia](http://en.wikipedia.org/wiki/Endianness) for more on endianness. 
 
-There are smarter ways to deal with this issue of not knowing where the end of
-the stack is ("NOP sleds"!), but this one is simpler and so it is what we did.
+<s>There are smarter ways to deal with this issue of not knowing where the end of
+the stack is ("NOP sleds"!), but this one is simpler and so it is what we did.</s>
+
+Filippo pointed out to me that NOP sleds are actually something you use in
+shellcode when you're not sure where the program execution will start. In this
+case I think you actually just have to figure out where the return address is.
+I think you can also use gdb or objdump to discover the layout of the stack,
+but I don't know how to do that yet.
