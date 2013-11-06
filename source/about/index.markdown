@@ -35,7 +35,7 @@ I'm interested in:
 * getting into hardware hacking
 * Python!
 * data analysis (for making the world a better place?)
-* ameliorer mon français
+* améliorer mon français
 * eating mangoes
 
 
