@@ -14,7 +14,7 @@ At the end they mentioned that I should look up how `traceroute` works and
 that it's a pretty popular networking-job-interview question. And I'd just
 discovered this super cool Python networking library called
 [Scapy](http://www.secdev.org/projects/scapy/) which lets you construct
-[packets really easily. So I thought I'd implement traceroute using scapy!
+packets really easily. So I thought I'd implement traceroute using scapy!
 
 I thought it would take a long time, but turns out that (a basic version) is
 really easy.
