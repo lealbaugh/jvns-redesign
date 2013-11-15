@@ -11,7 +11,7 @@ website!
 
 How it works: You tell it the sequence of git commands you've ever
 executed. It gives you back pretty pictures. Like this fantastic picture
-of [Selena Decklemann](http://www.chesnok.com/daily/)'s workflow! I
+of [Selena Deckelmann](http://www.chesnok.com/daily/)'s workflow! I
 really like how this one makes it clear when you'd want to use rebase
 (in between commit and push), or stash (before checkout and pull). It
 is a thing of beauty.
