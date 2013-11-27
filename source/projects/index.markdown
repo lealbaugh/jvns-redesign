@@ -40,7 +40,7 @@ LZ77 compression works. The internet liked it a lot.
 
 ### [Fun with kernel modules](https://github.com/jvns/kernel-module-fun) (2013)
 
-{%img /source/rootkit.png %}
+[{%img /images/rootkit.png %}](https://github.com/jvns/kernel-module-fun)
 
 When I arrived at Hacker School I had *no idea* about what the Linux
 kernel did or how to make it do anything. So my first action was to
