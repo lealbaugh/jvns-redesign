@@ -38,6 +38,26 @@ LZ77 compression works. The internet liked it a lot.
 [Blog post](http://jvns.ca/blog/2013/10/24/day-16-gzip-plus-poetry-equals-awesome/), 
 [HN discussion](https://news.ycombinator.com/item?id=6609586)
 
+### [Fun with kernel modules](https://github.com/jvns/kernel-module-fun) (2013)
+
+{%img /source/rootkit.png %}
+
+When I arrived at Hacker School I had *no idea* about what the Linux
+kernel did or how to make it do anything. So my first action was to
+find out. I wrote a couple of blog posts about
+[what the Linux kernel does](http://jvns.ca/blog/2013/10/02/day-3-what-does-the-linux-kernel-even-do/)
+and
+[processes vs threads](http://jvns.ca/blog/2013/10/04/day-4-processes-vs-threads/)
+before deciding to learn by writing a kernel module.
+
+It turns out that writing silly kernel modules is not too hard! I
+wrote a module that writes to the log every time a packet arrives and
+a small rootkit (via a lot of copying and and pasting).
+
+This is more of a "fun exploration" than a "serious project".
+
+[Source](https://github.com/jvns/kernel-module-fun)
+
 ### [Visualizing Unix command usage](http://jvns.ca/projects/unix-command-survey/graph.html) (2013)
 
 [{%img /images/command-graph-small.png %}](http://jvns.ca/projects/unix-command-survey/graph.html)
