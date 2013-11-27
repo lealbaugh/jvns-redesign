@@ -66,4 +66,22 @@ useful from April to mid-November.
 
 [Source](http://github.com/jvns/biximap).
 
- 
+### Master's thesis (2011)
+
+[{%img /images/thesis-picture.png %}](http://github.com/jvns/masters-thesis)
+
+This is certainly the project I've spent the *longest* on. I wrote my
+master's thesis on the algebra of topological quantum computing.
+
+The idea is that in order to understand the algebra behind topological
+quantum computing, one needs to understand
+
+* quantum groups, in particular quantum groups at roots of unity
+* how to get from the category of representations of those quantum groups to modular tensor categories, 
+* How topological quantum computing happens in these modular tensor categories
+
+My advisor [Prakash Panangaden](http://www.cs.mcgill.ca/~prakash/) and
+I found it hard to find a good reference which tied all these things
+together, so I wrote my thesis about it.
+
+[PDF](https://github.com/jvns/masters-thesis/raw/master/thesis.pdf)
