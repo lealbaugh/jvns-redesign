@@ -7,7 +7,18 @@ sharing: false
 footer: true
 ---
 
-### [Visualizing Git workflows](http://visualize-your-git.herokuapp.com) (2013)
+* [Visualizing Git workflows](#visualizing-git) (2013)
+* [Python TCP stack](#python-tcp-stack) (2013)
+* [Gunzip in Julia](#gunzip-in-julia) (2013)
+* [Fun with kernel modules](#kernel-module-fun) (2013)
+* [Visualizing Unix command usage](#unix-command-survey) (2013)
+* [Bike availability map](#bixi-map) (2011)
+* [Master's thesis](#masters-thesis) (2011)
+
+<h2>
+    <a name="visualizing-git" class="anchor"> </a>
+    <a href="http://visualize-your-git.herokuapp.com"> Visualizing Git workflows</a> (2013)
+</h2>
 
 [{%img /images/selenamarie.png%}](http://visualize-your-git.herokuapp.com/display/223/sparse)
 
@@ -24,7 +35,10 @@ After that, I built a tool to visualize your Git workflow. As of Dec.
 [Blog post](http://jvns.ca/blog/2013/11/13/day-27-magic-testing-functions/)
 
 
-### [Python TCP stack](https://github.com/jvns/teeceepee) (2013)
+<h2>
+    <a name="python-tcp-stack" class="anchor"> </a>
+    <a href="https://github.com/jvns/teeceepee">Python TCP stack</a> (2013)
+</h2>
 
 This was an exercise in learning how TCP works. It works exactly
 well enough to implement a slow and finicky version of `curl`, which
@@ -46,7 +60,10 @@ backlog develops pretty quickly.
 [[3]](http://jvns.ca/blog/2013/11/12/day-25-ack-all-the-things/)
 [[4]](http://jvns.ca/blog/2013/11/12/day-26-trying-to-describe-the-tcp-state-machine/)
 
-### [Gunzip in Julia](http://github.com/jvns/gzip.jl) (2013)
+<h2>
+    <a name="gunzip-in-julia" class="anchor"> </a>
+    <a href="http://github.com/jvns/gzip.jl">Gunzip in Julia</a> (2013)
+</h2>
 
 <iframe width="960" height="720" src="//www.youtube.com/embed/SWBkneyTyPU" frameborder="0" allowfullscreen></iframe>
 
@@ -61,7 +78,10 @@ LZ77 compression works. The internet liked it a lot.
 [Blog post](http://jvns.ca/blog/2013/10/24/day-16-gzip-plus-poetry-equals-awesome/), 
 [HN discussion](https://news.ycombinator.com/item?id=6609586)
 
-### [Fun with kernel modules](https://github.com/jvns/kernel-module-fun) (2013)
+<h2>
+    <a name="kernel-module-fun" class="anchor"> </a>
+    <a href="https://github.com/jvns/kernel-module-fun">Fun with kernel modules</a> (2013)
+</h2>
 
 [{%img /images/rootkit.png %}](https://github.com/jvns/kernel-module-fun)
 
@@ -81,7 +101,11 @@ This is more of a "fun exploration" than a "serious project".
 
 [Source](https://github.com/jvns/kernel-module-fun)
 
-### [Visualizing Unix command usage](http://jvns.ca/projects/unix-command-survey/graph.html) (2013)
+
+<h2>
+    <a name="unix-command-survey" class="anchor"> </a>
+    <a href="http://jvns.ca/projects/unix-command-survey/graph.html"> Visualizing Unix command usage</a> (2013)
+</h2>
 
 [{%img /images/command-graph-small.png %}](http://jvns.ca/projects/unix-command-survey/graph.html)
 
@@ -98,7 +122,10 @@ computationally intensive, so best viewed in Chrome.
 
 [Source](http://github.com/jvns/unix-command-survey)
 
-### [Bike availability map](http://jvns.ca/bixi/map) (2011)
+<h2>
+    <a name="bixi-map" class="anchor"> </a>
+    <a href="http://jvns.ca/bixi/map">Bike availability map</a> (2011)
+</h2>
 
 [{%img /images/biximap.png %}](http://jvns.ca/bixi/map)
 
@@ -109,7 +136,10 @@ useful from April to mid-November.
 
 [Source](http://github.com/jvns/biximap).
 
-### Master's thesis (2011)
+<h2>
+    <a name="masters-thesis" class="anchor"> </a>
+    Master's thesis (2011)
+</h2>
 
 [{%img /images/thesis-picture.png %}](http://github.com/jvns/masters-thesis)
 
