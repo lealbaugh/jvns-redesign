@@ -23,6 +23,29 @@ After that, I built a tool to visualize your Git workflow. As of Dec.
 [Try it out](visualize-your-git.herokuapp.com),
 [Blog post](http://jvns.ca/blog/2013/11/13/day-27-magic-testing-functions/)
 
+
+### [Python TCP stack](https://github.com/jvns/teeceepee) (2013)
+
+This was an exercise in learning how TCP works. It works exactly
+well enough to implement a slow and finicky version of `curl`, which
+is pretty exciting.
+
+It is also a huge pain because it turns out writing a TCP stack when
+you already *have* a TCP stack in your kernel is hard. I needed to
+invent an IP address and send gratuitous ARPs to the router so that
+all my connections didn't get reset.
+
+One thing I found while writing this is that it's important for a TCP
+stack to be *fast* -- this implementation lags pretty badly because a
+pure Python implementation is just too slow to handle incoming packets
+as quickly as they come in. It sends an ACK for each packet and a
+backlog develops pretty quickly.
+
+[Source](https://github.com/jvns/teeceepee), Blog posts [[1]](http://jvns.ca/blog/2013/11/06/day-23-started-writing-a-socket-library/)
+[[2]](http://jvns.ca/blog/2013/11/07/day-24-unit-testing-this-tcp-library/)
+[[3]](http://jvns.ca/blog/2013/11/12/day-25-ack-all-the-things/)
+[[4]](http://jvns.ca/blog/2013/11/12/day-26-trying-to-describe-the-tcp-state-machine/)
+
 ### [Gunzip in Julia](http://github.com/jvns/gzip.jl) (2013)
 
 <iframe width="960" height="720" src="//www.youtube.com/embed/SWBkneyTyPU" frameborder="0" allowfullscreen></iframe>
