@@ -27,6 +27,12 @@ talk. He explained how Bloom filters work and when it would be
 appropriate to use them, and now I know! There's also an
 [IPython Notebook](http://nbviewer.ipython.org/github/mlaprise/pydata2013-pds-talk/blob/master/pydata2013.ipynb).
 
+My main takeaway from this talk was that you can use Bloom filters to
+describe a huge amount of data, but not an *unlimited* amount of data
+-- the size of your Bloom filter depends on how much data you're going
+to put into it. He also described how to set up a Bloom filter where
+the elements expire after a certain amount of time.
+
 **[IPython - The Attributes of Software and How They Affect Our Work](http://vimeo.com/79832657)**
   by [Brian Granger](https://github.com/ellisonbg)
 
