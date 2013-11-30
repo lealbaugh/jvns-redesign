@@ -105,3 +105,7 @@ git clone https://github.com/thestinger/rust-core.git ~/rust-core
 ln -s ~/rust-core/core .
 make run
 </pre>
+
+Oh! Also! That code prints 9 characters to the VGA buffer correctly,
+but if I try printing 10 characters, it doesn't work. I have no idea
+why. That will be for tomorrow.
