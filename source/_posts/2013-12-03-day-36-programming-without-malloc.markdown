@@ -37,6 +37,9 @@ A few things that I can't do that I'm used to being able to do:
 * open files (there are no files)
 * list files (there are no files)
 
+(thanks to [Lea](http://instamatique.com/lea/) for "there are no
+files" =D)
+
 The only real problem with not having `malloc` is that all the memory
 I use has to either be
 
