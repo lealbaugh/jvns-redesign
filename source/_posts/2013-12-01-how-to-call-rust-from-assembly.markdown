@@ -1,4 +1,4 @@
-    ---
+---
 layout: post
 title: "How to call Rust from assembly, and vice versa"
 date: 2013-12-01 20:33
