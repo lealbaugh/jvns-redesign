@@ -31,35 +31,46 @@ really possible in Rust, but there are workarounds.
 ### How to get a Rust REPL
 
 There is no working Rust REPL. However, you can use
-[this script](http://sprunge.us/KaPE) to approximate one -- it
+[this script](http://sprunge.us/ahKj) to approximate one -- it
 compiles what you put into it and prints the result. You can't use the
 results of what you did previously, though. Save as `rustci`.
 
 ### How to find the type of a variable
 
-If you want to find the type of a variable `y`, run:
+**Edit:** The fantastic [Daniel Micay](https://github.com/thestinger)
+showed me this function to find the type of a variable. It's included
+in the `rustci` script above, so you can just do
+
+`let x = 2; type_of(&x)`
+
+to print the type of `2`. Amazing. Note that you have to call
+`type_of` with `&x` and not `x`.
+
+The function is:
+```rust
+fn type_of<T>(_: &T) -> &'static str {
+    unsafe {
+        (*std::unstable::intrinsics::get_tydesc::<T>()).name
+    }
+}
+```
+
+**Hackier approach:**
+
+You can also generate a compiler error with the type of a variable `y`
+like this:
 
 ```rust
+fn y() {}
 let x: () = y;
 ```
 
-This will generate a compiler error with the type of `y`. This is a
-hack, but as I understand it it's the best workaround for now.
-
-For example, to find the type of a function in our fake REPL, you can
-do
-
-```rust
-fn f() {}; let x: () = f;
-```
-
-This will give us the error:
-
+It's a hack, but it will give you an error like this:
 ```
 error: mismatched types: expected `()` but found `fn()` (expected () but found extern fn)
 ```
 
-which tells us that the type of `f` is `fn()`. Yay!
+which tells us that the type of `f` is `fn()`.
 
 ## The types!
 
