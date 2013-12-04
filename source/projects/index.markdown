@@ -31,7 +31,7 @@ After that, I built a tool to visualize your Git workflow. As of Dec.
 2013 about 2300 people have used it.
 
 [Source](https://github.com/jvns/git-workflow),
-[Try it out](visualize-your-git.herokuapp.com),
+[Try it out](http://visualize-your-git.herokuapp.com),
 [Blog post](http://jvns.ca/blog/2013/11/13/day-27-magic-testing-functions/)
 
 
