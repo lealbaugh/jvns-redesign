@@ -3,7 +3,7 @@ layout: post
 title: "Writing a kernel using rustboot &amp; rust-core"
 date: 2013-11-29 22:50
 comments: true
-categories: hackerschool coding operating-systems rust
+categories: hackerschool coding kernel rust
 ---
 
 Here I am again using the word "kernel" in a fairly broad sense :)

@@ -3,7 +3,7 @@ layout: post
 title: "What happens when you run 'Hello, world'"
 date: 2013-11-29 00:32
 comments: true
-categories: hackerschool coding
+categories: hackerschool coding kernel
 ---
 
 So today I experimented with a new way of learning -- I wanted to

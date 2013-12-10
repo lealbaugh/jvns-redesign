@@ -7,6 +7,7 @@ sharing: false
 footer: true
 ---
 
+* [Operating system in Rust](#os-rust) (2013)
 * [Visualizing Git workflows](#visualizing-git) (2013)
 * [Python TCP stack](#python-tcp-stack) (2013)
 * [Gunzip in Julia](#gunzip-in-julia) (2013)
@@ -14,6 +15,28 @@ footer: true
 * [Visualizing Unix command usage](#unix-command-survey) (2013)
 * [Bike availability map](#bixi-map) (2011)
 * [Master's thesis](#masters-thesis) (2011)
+
+<h2>
+    <a name="os-rust" class="anchor"> </a>
+    <a href="http://github.com/jvns/rustboot"> Operating system in Rust </a> (2013)
+</h2>
+
+A toy operating system in [Rust](http://rust-lang.com) for x86. Right
+now it has a basic keyboard driver, and I'm working on memory
+allocation.
+
+I've also written a pretty popular series of blog posts about this
+process, like
+[programming without malloc](http://jvns.ca/blog/2013/12/03/day-36-programming-without-malloc/)
+and
+[struggling with getting keyboard interrupts to work](http://jvns.ca/blog/2013/12/04/day-37-how-a-keyboard-works/).
+You can see
+[all my OS-hacking related posts](http://jvns.ca/blog/categories/kernel/).
+
+It's been really fun to learn Rust -- the community is really
+friendly, and I've been able to contribute back to the documentation.
+
+[[Source]](http://github.com/jvns/rustboot)
 
 <h2>
     <a name="visualizing-git" class="anchor"> </a>

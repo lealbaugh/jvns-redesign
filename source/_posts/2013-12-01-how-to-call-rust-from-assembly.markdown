@@ -3,7 +3,7 @@ layout: post
 title: "How to call Rust from assembly, and vice versa"
 date: 2013-12-01 20:33
 comments: true
-categories: hackerschool rust coding
+categories: hackerschool rust coding kernel
 ---
 
 In the last few days I've been working on a kernel in Rust. This has
