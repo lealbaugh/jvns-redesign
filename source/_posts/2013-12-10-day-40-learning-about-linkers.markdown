@@ -32,7 +32,7 @@ threading and things other than ELF, but I will mostly ignore it.
 
 There are **symbols**, **relocations** and **contents** in object
 files. I knew about symbols and contents already, but relocations are
-new to me. The contents are the contents of a variable for function. A
+new to me. The contents are the contents of a variable or function. A
 key insight here is that the linker doesn't actually care too much
 about the contents -- it's just concerned with putting the contents in
 the right place.
@@ -322,6 +322,11 @@ executing something from `.rodata`, and if that could be bad. Section
 
 So the reason that `.text` and `.data` aren't in the same section is
 that `.text` has to be read-only and `.data` needs to be read-write.
+
+Here's another example of [the segments](http://sprunge.us/HIGL) and
+[the symbol table](http://sprunge.us/VAUH) in the same program, but
+this time statically linked. There are way less segments (the file is
+less complicated), but the symbol table is much bigger.
 
 Okay I think I'm pretty good with segments. This is cool!
 
