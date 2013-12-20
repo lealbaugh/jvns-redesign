@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Day 43: SOMETHING IS ERASING MY PROGRAM WHILE IT'S RUNNING"
+title: "Day 43: SOMETHING IS ERASING MY PROGRAM WHILE IT’S RUNNING (oh wait oops)"
 date: 2013-12-16 23:28
 comments: true
 categories: hackerschool kernel coding
@@ -8,6 +8,9 @@ categories: hackerschool kernel coding
 
 alternate title: "Hopefully the last day I spend all day trying to
 compile my code properly"
+
+(context: I'm working on writing an OS, and am experiencing a
+mysterious recurring bug. After many days, I have found the reason!)
 
 Today I went through the following:
 
@@ -49,3 +52,8 @@ Can we talk about this?
 1. No wonder the order I put the binary in matters.
 
 It is a wonder that this code even runs, man. Man.
+
+
+**Edit**: I found why my binary has lots of 0s in it at runtime. It is
+  because I was only loading 12k of it in `loader.asm`. Hopefully this
+  will serve as a lesson to someone.
