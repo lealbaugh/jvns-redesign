@@ -30,3 +30,9 @@ h3 {
 .tr {
     text-align:right;
 }
+
+div#uliaea {
+  font-size: 12px;
+  color: #aaa;
+  text-align: right;
+}
