@@ -20,7 +20,7 @@ really involved in running a program.
 
 For example! `killall`! I ran
 
-`strace killall ruby1.9.1 > killall`.
+`strace killall ruby1.9.1 2> killall-log`.
 
 This starts with
 
