@@ -54,6 +54,7 @@ task :generate do
   puts "## Generating Site with Jekyll"
   system "compass compile --css-dir #{source_dir}/stylesheets"
   system "jekyll"
+  system "./source/scripts/crush.pl"
 end
 
 desc "Watch the site and regenerate when it changes"
