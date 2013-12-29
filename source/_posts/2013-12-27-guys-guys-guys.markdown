@@ -6,10 +6,10 @@ comments: true
 categories: 
 ---
 
-Yesterday I was having a discussion with someone about whether or not
-"guys" was a gender-neutral term. This person said "my friends totally
-think it is!", and I verified with my friends, who totally said it
-wasn't. Not the best grounds for a discussion.
+The other day I was having a discussion with someone about whether or
+not "guys" was a gender-neutral term. This person said "my friends
+totally think it is!", and I verified with my friends, who totally
+said it wasn't. Not the best grounds for a discussion.
 
 So I ran a slightly-more-scientific survey. Here are
 [the survey questions](https://docs.google.com/forms/d/1qg85hU7hfjqDgydlfa16UveuENFjgp23WlfkRNsnm48/viewform),
