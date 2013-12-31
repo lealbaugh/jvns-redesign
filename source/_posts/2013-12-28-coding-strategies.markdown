@@ -37,4 +37,24 @@ tests and the other person write the code.
 
 <blockquote class="twitter-tweet" lang="en"><p>Coding strategies: code for 30 minutes without thinking about whether it&#39;s good or not</p>&mdash; Julia Evans (@b0rk) <a href="https://twitter.com/b0rk/statuses/417121837789626369">December 29, 2013</a></blockquote>
 
+[Erik](http://twitter.com/d6) also started tweeting coding strategies!
+He is the best. I especially like "ride a bicycle until you are
+out-of-breath on the other side of town."
+
+<blockquote class="twitter-tweet" lang="en"><p>Coding strategies: try unselfconsciously following your instincts.</p>&mdash; Eiríkr Åsheim (@d6) <a href="https://twitter.com/d6/statuses/417145076918124546">December 29, 2013</a></blockquote>
+
+<blockquote class="twitter-tweet" lang="en"><p>Coding strategies: set a goal for yourself (perf, immutability, type safety, terseness, whatever) and try prioritzing it above all else.</p>&mdash; Eiríkr Åsheim (@d6) <a href="https://twitter.com/d6/statuses/417145290349498368">December 29, 2013</a></blockquote>
+
+<blockquote class="twitter-tweet" lang="en"><p>Coding strategies: try selfconsciously interrogating every decision and design you make.</p>&mdash; Eiríkr Åsheim (@d6) <a href="https://twitter.com/d6/statuses/417145290726981632">December 29, 2013</a></blockquote>
+
+<blockquote class="twitter-tweet" lang="en"><p>Coding strategies: watch &quot;the five obstructions&quot; then apply similar challenges to your code.</p>&mdash; Eiríkr Åsheim (@d6) <a href="https://twitter.com/d6/statuses/417147825596559364">December 29, 2013</a></blockquote>
+
+<blockquote class="twitter-tweet" lang="en"><p>Coding strategies: port someone else&#39;s code to a new language to learn about their code and/or the other language.</p>&mdash; Eiríkr Åsheim (@d6) <a href="https://twitter.com/d6/statuses/417151031693148160">December 29, 2013</a></blockquote>
+
+<blockquote class="twitter-tweet" lang="en"><p>Coding strategies: ride a bicycle until you are out-of-breath on the other side of town.</p>&mdash; Eiríkr Åsheim (@d6) <a href="https://twitter.com/d6/statuses/417151305350541312">December 29, 2013</a></blockquote>
+
+<blockquote class="twitter-tweet" lang="en"><p>Coding strategies: try using property-based testing and test coverage to determine every possible way your code can fail.</p>&mdash; Eiríkr Åsheim (@d6) <a href="https://twitter.com/d6/statuses/417156530631233536">December 29, 2013</a></blockquote>
+
+<blockquote class="twitter-tweet" lang="en"><p>To sum up my coding strategies: avoid dogma, question conventional wisdom, try new things, be idealistic, improve, and have fun.</p>&mdash; Eiríkr Åsheim (@d6) <a href="https://twitter.com/d6/statuses/417163090392657920">December 29, 2013</a></blockquote>
+
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
