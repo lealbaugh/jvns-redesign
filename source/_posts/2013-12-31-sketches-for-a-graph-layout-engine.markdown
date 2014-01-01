@@ -17,7 +17,7 @@ SVGs without any libraries.
 
 Here's the interface I'm starting with:
 
-```
+```python
 import graph_layout
 graph = {
    "vertices": [1,2,3],
@@ -36,7 +36,7 @@ I'd like to have an intermediate layout structure, to make it easy to
 write layouts to different backends. One possible way to do this is to
 just store the coordinates of each vertex.
 
-```
+```python
 layout = {
     1: (100, 200), 
     2: (200, 300), 
