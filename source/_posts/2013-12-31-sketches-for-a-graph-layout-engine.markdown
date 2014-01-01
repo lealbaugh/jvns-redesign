@@ -51,13 +51,13 @@ And here are some code sketches:
 
 ```python
 class SVG(object):
-    """ etc etc ""
+    """ etc etc """
     def add_vertex(start, end):
         pass
     def add_edge(start, end):
         pass
     def write(filename):
-        pas
+        pass
 
 def draw(graph, filename, width=None, height=None, directed=False):
     layout = _create_layout(graph, width, height)
