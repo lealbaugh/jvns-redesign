@@ -41,8 +41,8 @@ suggestions.
 * It can be worth asking the same question to more than one person.
 
 ### Engineering practices
-* Do you use version control? (if not, the interview should be over
-  =))
+* What version control system do you use? (if none, the interview
+  should be over =))
 * Do you test your code?
 * How do you make sure that all code is understood by more than one
   person?
@@ -107,6 +107,7 @@ suggestions.
 * Do people check in when they're on vacation? How often?
 * Is it possible to work from home, say, 1 or 2 days a week? Does
   anyone do this? (can be a nice option to have)
+* Does this position require travel? How often?
 
 As many of these as possible are "statistical" questions -- a company may say that they "don't have hours", but if everyone leaves at 9pm that's not a good sign. 
 
@@ -164,3 +165,5 @@ Do you work mostly in the community or do you have a private fork?
   got such an offer?
 * What do you wish you had known when you joined this company?
 * Why did you choose to join this company?
+* What's the single biggest issue or problem facing the
+  team/department/company?" What's currently being done to address it?
