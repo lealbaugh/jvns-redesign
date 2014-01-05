@@ -1,13 +1,16 @@
 ---
 layout: post
-title: "5 paths to being a kernel hacker"
+title: "4 paths to being a kernel hacker"
 date: 2014-01-04 14:37
 comments: true
 categories: kernel
 ---
 
+(this is me continuing work on my [CUSEC](http://2014.cusec.net/) talk
+about why the kernel isn't scary)
+
 I once tried asking for advice about how to get started with kernel
-programming, and was basically told
+programming, and was basically told:
 
 1. If you don't *need* to understand the kernel for your work, why
    would you try?
@@ -19,7 +22,8 @@ programming, and was basically told
 
 This was really, really, really not helpful to me. So here are a few
 possible strategies for learning about how operating systems and the
-Linux kernel work on your own terms, while having fun.
+Linux kernel work on your own terms, while having fun. I still only
+know a few things, but I know more than I did before :)
 
 For most of these paths, you'll need to understand some C, and a bit
 of assembly (at least enough to copy and paste). I'd written a few
@@ -96,17 +100,67 @@ works? Read the source, silly!"
 
 But it's actually kind of fun! You won't understand everything. I felt
 kind of dumb for not understanding things, but then every single
-person I talked to was like "yeah, it's the Linux kernel!".
+person I talked to was like "yeah, it's the Linux kernel, of course!".
 
-My friend just pointed me to [LXR](http://lxr.linux.no/), where you
-can read the kernel source
+My friend Dave recently pointed me to [LXR](http://lxr.linux.no/),
+where you can read the kernel source and it provides lots of helpful
+cross-referencing links. For example, if you wanted to understand the
+`chmod` system call, you can go look at
+[the chmod_common definition](http://lxr.linux.no/linux+v3.12.6/fs/open.c#L464)
+in the Linux kernel!
 
+Here's the source for `chmod_common`, with some comments from me:
 
-Some other fun things to read:
+```c
+static int chmod_common(struct path *path, umode_t mode)
+{
+    struct inode *inode = path->dentry->d_inode;
+    struct iattr newattrs;
+    int error;
+
+    // No idea what this does
+    error = mnt_want_write(path->mnt);
+    if (error)
+        return error;
+
+    // Mutexes! Prevent race conditions! =D
+    mutex_lock(&inode->i_mutex);
+
+    // Check for permission to use chmod, I guess.
+    error = security_path_chmod(path, mode);
+    if (error)
+        goto out_unlock;
+    // I guess this changes the mode!
+    newattrs.ia_mode = (mode & S_IALLUGO) | (inode->i_mode & ~S_IALLUGO);
+    newattrs.ia_valid = ATTR_MODE | ATTR_CTIME;
+    error = notify_change(path->dentry, &newattrs);
+out_unlock:
+    mutex_unlock(&inode->i_mutex); // We're done, so the mutex is over!
+    mnt_drop_write(path->mnt); // ???
+    return error;
+}
+```
+
+I find this is a fun time and helps demystify the kernel for me. Most
+of the code I read I find pretty opaque, but some of it (like this
+chmod code) is a little bit understandable.
+
+To summarize a few links:
 
 * [Jessica McKellar](http://web.mit.edu/jesstess/www/)'s blog posts on
   the [Ksplice blog](https://blogs.oracle.com/ksplice/)
 * [Linux Device Drivers](http://lwn.net/Kernel/LDD3/) describes itself
-  like this:
+  like this. I've found it somewhat useful.
   > "This book teaches you how to write your own drivers and how to hack around in related parts of the kernel."
-  It seems to me to be well-written.
+* The [OSDev wiki](http://wiki.osdev.org/Main_Page) is great if you're
+  writing an OS.
+* [Kernel Newbies](http://kernelnewbies.org/) has some resources for
+  starting kernel developers. I didn't have good experiences in the
+  IRC channel, though.
+* [Sarah Sharp](http://sarah.thesharps.us/) is a kernel developer and
+  runs the Linux kernel outreach and is amazing.
+
+
+I'd also love to hear from you. If you'd done kernel work, how did you
+get started with kernel hacking? If you haven't, which of these paths
+sounds most approachable to you?
