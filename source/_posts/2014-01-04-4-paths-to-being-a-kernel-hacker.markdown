@@ -107,7 +107,8 @@ where you can read the kernel source and it provides lots of helpful
 cross-referencing links. For example, if you wanted to understand the
 `chmod` system call, you can go look at
 [the chmod_common definition](http://lxr.linux.no/linux+v3.12.6/fs/open.c#L464)
-in the Linux kernel!
+in the Linux kernel! [livegrep.com](http://livegrep.com/search/linux)
+is also really nice for this.
 
 Here's the source for `chmod_common`, with some comments from me:
 
@@ -159,6 +160,7 @@ To summarize a few links:
   IRC channel, though.
 * [Sarah Sharp](http://sarah.thesharps.us/) is a kernel developer and
   runs the Linux kernel outreach and is amazing.
+* [Valerie Aurora's posts on LWN.net](https://encrypted.google.com/#q=site:lwn.net+%22this+article+was+contributed+by+valerie%22)
 
 
 I'd also love to hear from you. If you'd done kernel work, how did you
