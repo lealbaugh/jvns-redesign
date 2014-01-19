@@ -9,8 +9,9 @@ footer: true
 
 Hi! I'm Julia.
 
-I normally live in Montréal, Canada. Right now I'm at [Hacker School](http://hackerschool.com)
-in New York working on becoming a better programmer. It is AWESOME.
+I normally live in Montréal, Canada. I'm a
+[Hacker School](http://hackerschool.com) alum.
+Hacker School was amazing. Right now I'm in between things.
 
 Most of my programming experience is around web development (I made my
 first CGI script with Perl in 2005). Since then I've learned bits and pieces of

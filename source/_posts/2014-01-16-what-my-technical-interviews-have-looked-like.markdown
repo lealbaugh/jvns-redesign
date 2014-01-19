@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What my technical interviews have looked like"
-date: 2014-01-15 10:57
+date: 2014-01-16 10:57
 comments: true
 categories: interviewing
 ---
@@ -15,7 +15,8 @@ to interviewing and get a feel for the culture at the companies.
 I feel like at some point someone's going to ask me what kind of
 questions get asked in technical interviews. So here are some
 anecdotes. This is probably from 15-30 technical interviews / phone
-screens, across a bunch of tech companies of different sizes.
+screens, across a bunch of tech companies of different sizes. (the
+number depends on how you count interviews)
 
 ## Questions about my background
 
@@ -61,7 +62,7 @@ Some good things to talk about would be
   a lot, and wrote about in
   [Questions I'm asking in interviews](http://jvns.ca/blog/2013/12/30/questions-im-asking-in-interviews/).
   I may write more about this later because it's really important and
-  pretty hard to get right.
+  I find it pretty hard to get right.
 
 
 ## Technical questions
