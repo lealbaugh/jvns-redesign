@@ -48,3 +48,7 @@ I'm trying to put together more examples of when understanding how
 system calls work is useful in everyday non-kernel-hacking
 programming. If you have suggestions, tell me on Twitter! I'm
 [@b0rk](http://twitter.com/b0rk). (or by email!)
+
+(**edit**: [Greg Price](http://web.mit.edu/price/) suggested using
+`strace -e process` instead of `strace -e trace=execve`. It's shorter,
+and it also shows you other process-related system calls.)
