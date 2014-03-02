@@ -19,7 +19,12 @@ with one keyboard, and work on a Thing together. The Thing is often
 programming, but you can also pair on other things, like writing
 documentation!
 
-Here are a few ways to think about pairing:
+Here's a way to think about it. When you're programming, you might ask
+someone to come over to your computer and talk about some code with
+you. Or a bug, or a design issue you're trying to work out. Pair
+programming is like that, but for longer (like an hour).
+
+A few things I like about pairing:
 
 1. You can timebox your pairing sessions, and have a specific goal:
    "We're going to work for 1 hour on refactoring this library".
