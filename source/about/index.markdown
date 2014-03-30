@@ -8,7 +8,13 @@ footer: true
 ---
 Hi! I’m Julia.
 
-I work as a programmer in Montréal, Canada! If you want to learn about
+I live in Montreal and work on [Stripe](https://stripe.com)'s data
+team. You can find me elsewhere on the internet:
+
+* [http://github.com/jvns](http://github.com/jvns)
+* [http://twitter.com/b0rk](http://twitter.com/b0rk)
+
+If you want to learn about
 what kinds of programming things I like, you should take a look at my
 [blog](http://jvns.ca/blog/archives/) or
 [projects](http://jvns.ca/projects/). I've spent most of my time
