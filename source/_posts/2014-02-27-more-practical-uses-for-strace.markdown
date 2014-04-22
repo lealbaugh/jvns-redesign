@@ -3,7 +3,7 @@ layout: post
 title: "More practical uses for strace!"
 date: 2014-02-27 07:25:36 -0800
 comments: true
-categories: coding kernel
+categories: coding kernel strace
 ---
 
 In yesterday's blog post on

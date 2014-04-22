@@ -3,7 +3,7 @@ layout: post
 title: "Understanding how killall works using strace"
 date: 2013-12-22 17:03
 comments: true
-categories: kernel
+categories: kernel strace
 ---
 
 Right now I'm on a million-hour train ride from New York to Montreal.

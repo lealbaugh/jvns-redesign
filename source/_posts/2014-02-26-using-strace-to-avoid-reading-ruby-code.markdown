@@ -3,7 +3,7 @@ layout: post
 title: "Using strace to avoid reading Ruby code"
 date: 2014-02-26 18:49:06 -0800
 comments: true
-categories: stripe coding kernel
+categories: stripe coding kernel strace
 ---
 
 <small>

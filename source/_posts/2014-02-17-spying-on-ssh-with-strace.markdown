@@ -3,7 +3,7 @@ layout: post
 title: "Spying on ssh with strace"
 date: 2014-02-17 11:37
 comments: true
-categories: coding
+categories: coding strace
 ---
 
 In the shower this morning I was thinking about strace and ltrace and
