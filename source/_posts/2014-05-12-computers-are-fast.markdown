@@ -59,7 +59,7 @@ additions at once, and that I could maybe use them to optimize my
 program! So I googled "vector intrinsics", copied some code from Stack
 Overflow, and ended up with a new version:
 [bytesum_intrinsics.c](https://github.com/jvns/howcomputer/blob/master/bytesum_intrinsics.c).
-I timed it, and it took **0.5 seconds**!!!
+I timed it, and it took **0.25 seconds**!!!
 
 So our program now runs **twice as fast**, and we know a whole bunch
 of new words (SSE! SIMD! vector intrinsics!)
