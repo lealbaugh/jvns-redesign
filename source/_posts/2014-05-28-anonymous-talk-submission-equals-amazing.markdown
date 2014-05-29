@@ -52,9 +52,9 @@ have much time.
 ### Talk review: Letter grades
 
 [Lindsey](https://twitter.com/lindsey) suggested this way of managing
-review, I think from another program committee she'd been on. Each of
-us assigned a proposal a letter grade (A-D), from "I will fight for
-this talk", to "I will fight for this talk to be *rejected*". We then
+review after having seen it at academic conferences. Each of us
+assigned a proposal a letter grade (A-D), from "I will fight for this
+talk", to "I will fight for this talk to be *rejected*". We then
 looked at the highest & lowest grade for each talk and binned them
 into AA, AB, AC, AD, BB, BC, BD, CC, CD, DD. We rejected any talk that
 didn't have an A.
