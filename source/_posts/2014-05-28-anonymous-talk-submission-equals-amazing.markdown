@@ -33,6 +33,10 @@ Several people told us that they liked the anonymous review because
 they were confident they'd be judged fairly on the merits of their
 proposal.
 
+> Thank you so much for [anonymizing everything]! It's a relief to
+> know that I wasn't picked for gender, race, age, or anything like
+> that.
+
 I would happily do anonymous review again. It was great.
 
 ### Outreach to women.
@@ -86,6 +90,19 @@ merits in a video chat and decide whether to accept or reject it.
 We did that, and after much sadness (what do you mean this is still
 too many talks! We can't accept three talks about the Curry-Howard
 isomorphism!), we had a program!.
+
+### Super-personal responses
+
+Alex, our Chief Anonymizer, did not only do an amazing job of
+anonymizing! Not at all. We got a ton of submissions that we would
+have *loved* to accept if we'd had more space.
+
+So Alex sent personal emails to people whose talks we rejected saying
+how interesting he thought their talks were and which parts
+specifically he liked.
+
+If your talk got rejected, you should consider submitting it to
+another conference! We probably loved it.
 
 ### Amazing results
 
