@@ -51,13 +51,14 @@ have much time.
 
 ### Talk review: Letter grades
 
-[Lindsey](https://twitter.com/lindsey) suggested this way of managing
-review after having seen it at academic conferences. Each of us
-assigned a proposal a letter grade (A-D), from "I will fight for this
-talk", to "I will fight for this talk to be *rejected*". We then
-looked at the highest & lowest grade for each talk and binned them
-into AA, AB, AC, AD, BB, BC, BD, CC, CD, DD. We rejected any talk that
-didn't have an A.
+[Lindsey](https://twitter.com/lindsey) suggested
+[this way of managing review](http://scg.unibe.ch/download/champion/#PATTERN5)
+after having seen it at academic conferences. Each of us assigned a
+proposal a letter grade (A-D), from "I will fight for this talk", to
+"I will fight for this talk to be *rejected*". We then looked at the
+highest & lowest grade for each talk and binned them into AA, AB, AC,
+AD, BB, BC, BD, CC, CD, DD. We rejected any talk that didn't have an
+A.
 
 If I knew who a proposal was by, I abstained from reviewing it (so
 hard!).
@@ -76,7 +77,7 @@ an GitHub issue, and tagged them. Here are the tags we used.
 * `has-advocate` - Someone has advocated this talk in the comments
 * `reject-advocate` - Someone has argued for rejecting this talk in
   the comments
-* a category: (work/fun/science/product/art/progland/other)
+* a category: (work/fun/science/product/art/proglang/other)
 
 To be accepted, a talk needed an *advocate* -- someone who would argue
 for it to be accepted. Once it had an advocate, we would discuss its
