@@ -84,7 +84,7 @@ for it to be accepted. Once it had an advocate, we would discuss its
 merits in a video chat and decide whether to accept or reject it.
 
 We did that, and after much sadness (what do you mean this is still
-too many talks! We can't accept three talks about Curry-Howard
+too many talks! We can't accept three talks about the Curry-Howard
 isomorphism!), we had a program!.
 
 ### Amazing results
