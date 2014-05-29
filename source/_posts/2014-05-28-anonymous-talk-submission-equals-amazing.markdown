@@ -33,6 +33,9 @@ Several people told us that they liked the anonymous review because
 they were confident they'd be judged fairly on the merits of their
 proposal.
 
+One of our accepted speakers,
+[Katherine Ye](https://twitter.com/hypotext), told us:
+
 > Thank you so much for [anonymizing everything]! It's a relief to
 > know that I wasn't picked for gender, race, age, or anything like
 > that.
@@ -122,3 +125,7 @@ was weaving! Assembly! How serial protocols work! Logic programming!
 Hacking poetry! Robots dancing! Python's 1500-line switch statement!
 All of the speakers did an amazing job -- I think for every single
 talk I heard someone say "Wow, that was my favorite talk!"
+
+None of this is to say that anonymous review is the best way to do
+talk review. PyCon does not do anonymous review at all, and I think
+they do a great job. But it worked very well for us.
