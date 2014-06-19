@@ -4,9 +4,9 @@ require "stringex"
 
 ## -- Rsync Deploy config -- ##
 # Be sure your public key is listed in your server's ~/.ssh/authorized_keys file
-ssh_user       = "nfsn"
+ssh_user       = "jevans12_jvns@ssh.phx.nearlyfreespeech.net"
 ssh_port       = "22"
-document_root  = "/home/public"
+document_root  = "/home/public/secret_blog_test"
 rsync_delete   = false
 rsync_args     = ""  # Any extra arguments to pass to rsync
 deploy_default = "rsync"
@@ -16,7 +16,7 @@ deploy_branch  = "master"
 
 ## -- Misc Configs -- ##
 
-public_dir      = "public"    # compiled site directory
+public_dir      = "public/secret_blog_test"    # compiled site directory
 source_dir      = "source"    # source file directory
 blog_index_dir  = 'source'    # directory for your blog's index page (if you put your index in source/blog/index.html, set this to 'source/blog')
 deploy_dir      = "_deploy"   # deploy directory (for Github pages deployment)
