@@ -6,10 +6,10 @@ comments: true
 categories: machinelearning
 ---
 
-# Machine learning isn't Kaggle competitions
-
-I write about strace and kernel programming on this blog, but at work I actually
-mostly work on machine learning, and it's about time I started writing about it :)
+I write about strace and kernel programming on this blog, but at work
+I actually mostly work on machine learning, and it's about time I
+started writing about it! Disclaimer: I work on a data analysis /
+engineering team at a tech company, so that's where I'm coming from.
 
 When I started trying to get better at machine learning, I went to
 [Kaggle](http://www.kaggle.com/) and tried out one of the classification problems. I used an
@@ -36,7 +36,7 @@ trying to do? Some possible options:
 
 I've spent time on projects where I didn't understand at all how the
 model was going to fit into business plans. If this is you, it *doesn't
-matter* how good your model is.
+matter* how good your model is. At all.
 
 Understanding the business problem will also help you decide:
 
@@ -130,13 +130,13 @@ model and it won't perform well so you'll try to add some additional
 features and see if you can build a better model. Or maybe how useful
 the model is to your business depends on how good the results are.
 
-Doing Kaggle problems is fun! It means you can focus on machine learning
-algorithm nerdery and get better at that. But it's pretty far removed
-from my job, where I work on a [team (hiring!)](https://stripe.com/jobs#data_engineer) that thinks
-about all of these problems. Right now I'm looking at measuring models'
-performance once they're in production, for instance!
+Doing Kaggle problems is fun! It means you can focus on machine
+learning algorithm nerdery and get better at that. But it's pretty far
+removed from my job, where I work on a
+[team (hiring!)](https://stripe.com/jobs#data_engineer) that thinks
+about all of these problems. Right now I'm looking at measuring
+models' performance once they're in production, for instance!
 
 So if you look at Kaggle leaderboards and think that you're bad at
 machine learning because you're not doing well, don't. It's a fun but
 artificial problem that doesn't reflect real machine learning work.
-
