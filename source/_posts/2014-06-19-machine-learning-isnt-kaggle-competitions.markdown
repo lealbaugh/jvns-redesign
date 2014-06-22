@@ -26,6 +26,8 @@ awesome startup idea. You're going to predict flight arrival times for
 people! There are a ton of decisions you'll need to make before you even
 start thinking about support vector machines:
 
+<!-- more -->
+
 ### Understand the business problem
 
 If you want to predict flight arrival times, what are you really

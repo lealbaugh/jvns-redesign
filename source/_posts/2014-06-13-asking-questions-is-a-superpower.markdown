@@ -27,6 +27,8 @@ something, instead of worrying about whether people will think I'm
 dumb for not knowing it. This is *magical*, because it means I can
 then learn those things!
 
+<!-- more -->
+
 One of my very favorite examples of this is how I started learning
 about operating systems. At the beginning of Hacker School, I realized
 that I legitimately did not know what a kernel was or did more than
