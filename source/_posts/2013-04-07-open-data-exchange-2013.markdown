@@ -21,6 +21,8 @@ advocates with citizens, business owners, and experts in their fields.
 Open data apps are only useful if they're solving problems that people
 are really having, and answering questions that people really need to
 know the answers to.
+<!-- more -->
+
 
 ### Lightning talks
 

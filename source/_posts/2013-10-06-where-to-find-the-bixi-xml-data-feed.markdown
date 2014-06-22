@@ -24,6 +24,8 @@ XML feeds:
 * Boston Hubway - [http://thehubway.com/data/stations/bikeStations.xml](http://thehubway.com/data/stations/bikeStations.xml)
 * London Barclay's Cycle Hire - [http://www.tfl.gov.uk/tfl/syndication/feeds/cycle-hire/livecyclehireupdates.xml](http://www.tfl.gov.uk/tfl/syndication/feeds/cycle-hire/livecyclehireupdates.xml)
 
+<!-- more -->
+
 JSON feeds:
 
 * New York Citi Bike - [http://citibikenyc.com/stations/json](http://citibikenyc.com/stations/json)

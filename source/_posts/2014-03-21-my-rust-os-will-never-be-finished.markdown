@@ -25,7 +25,9 @@ few:
 - to explore a new concept (see: Bret Victor's demos)
 
 The reason I wrote an operating system in Rust wasn't so that I could
-have an operating system written in Rust. I already have an kernel on
+have an operating system written in Rust. 
+<!-- more -->
+I already have an kernel on
 my computer (Linux), and other people have already written Rust
 operating systems better than I have. Any code that I write in 3 weeks
 is at best a duplication of someone else's work, and mimicking

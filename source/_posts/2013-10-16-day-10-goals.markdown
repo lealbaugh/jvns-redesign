@@ -20,6 +20,7 @@ what my goals for Hacker School are. I think they're something like:
    yet.
 4. Learn about concurrency, because I don't even.
 5. Learn about how to write practical functional programs.
+<!-- more -->
 
 To address #3, I think I need to spend more time reading well-written
 code. I'm still not sure about #2. Or #4. Or #5.

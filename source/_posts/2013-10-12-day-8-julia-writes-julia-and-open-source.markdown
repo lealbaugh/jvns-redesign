@@ -25,6 +25,7 @@ Julia:
   library for Julia, which I've already contributed a tiny bit to!
 * I love the IPython Notebook to death, and Julia has a backend for it
   so that there's an IJulia Notebook! <3 <3 <3
+<!-- more -->
 
 However:
 

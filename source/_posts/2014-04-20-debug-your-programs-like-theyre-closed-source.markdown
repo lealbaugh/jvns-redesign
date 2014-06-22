@@ -27,6 +27,8 @@ screen, start processes, and all kinds of things. Programs can ask
 their operating system to do these things, using functions called
 **system calls**.
 
+<!-- more -->
+
 System calls are the API for your computer, so you don't have to know
 how a network card works to send a HTTP request.
 

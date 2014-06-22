@@ -27,6 +27,8 @@ make no sense if you have not been absorbed in gzip for the last 5 days.
 That said, here is how a gzip file is laid out, and some of the code I wrote to
 decode it. The github repository is here: [github.com/jvns/gzip.jl](http://github.com/jvns/gzip.jl)
 
+<!-- more -->
+
 ## Gzip headers and metadata (20 bytes or so)
 
 This part of the file isn't that interesting. Every gzip file has to start

@@ -19,6 +19,7 @@ of fun!
 The first order of business when preparing a talk is to convince
 yourself that public speaking is a good idea and better than hiding
 under the bed.
+<!-- more -->
 
 One blog post that really motivated me when I was starting out was
 this post by Hilary Mason on

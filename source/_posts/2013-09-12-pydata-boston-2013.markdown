@@ -26,6 +26,7 @@ detecting sex scenes in Fifty Shades of Grey. She talks about using Mechanical
 Turk to build a classifier. It's super interesting and hilarious. I'm really
 happy that I know that she exists now. I also found out that she maintains a
 mailing list for data visualization jobs. [Here's the video](http://vimeo.com/74075845).
+<!-- more -->
 
 She said that she does all her data analysis in Python, and then writes
 frontends in Javascript (using D3).

@@ -13,6 +13,7 @@ meet [Kelsey Gilmore-Innis](https://twitter.com/kelseyinnis) and it
 was pretty great.
 
 Some of my favorite things:
+<!-- more -->
 
 * [Josh Matthews](http://www.joshmatthews.net/) gave a great
   introductory talk on how to contribute to Firefox. I liked how he

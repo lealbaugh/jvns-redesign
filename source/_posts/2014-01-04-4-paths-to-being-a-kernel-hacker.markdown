@@ -24,6 +24,7 @@ This was really, really, really not helpful to me. So here are a few
 possible strategies for learning about how operating systems and the
 Linux kernel work on your own terms, while having fun. I still only
 know a few things, but I know more than I did before :)
+<!-- more -->
 
 For most of these paths, you'll need to understand some C, and a bit
 of assembly (at least enough to copy and paste). I'd written a few

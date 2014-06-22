@@ -29,6 +29,8 @@ up with
 * which were very well presented. The quality was even higher than I
   expected, and I'd worked on reviewing the proposals!
 
+<!-- more -->
+
 Several people told us that they liked the anonymous review because
 they were confident they'd be judged fairly on the merits of their
 proposal.

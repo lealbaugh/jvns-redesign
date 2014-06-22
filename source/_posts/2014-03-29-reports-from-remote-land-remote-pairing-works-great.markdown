@@ -22,6 +22,8 @@ experience.
 
 This is not so! Here's what I've been using:
 
+<!-- more -->
+
 - [tmate](http://tmate.io/) for sharing my terminal (I use vim in the
   terminal). The other person only needs a ssh client to use tmate.
 - Google Hangouts or Skype for talking, and sometimes for

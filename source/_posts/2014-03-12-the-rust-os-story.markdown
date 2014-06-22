@@ -16,6 +16,8 @@ it's a lot of fun, and there are a lot of mishaps:
 Here are a few of the tiny steps I took. There are more, but those
 will have to wait for the evening.
 
+<!-- more -->
+
 ### Step 1: copy some code from the internet
 
 I didn't know what I was doing, so I didn't want to start from

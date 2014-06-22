@@ -15,6 +15,7 @@ Allison has a
 [great blog post](http://akaptur.github.io/blog/2013/08/14/python-bytecode-fun-with-dis/) 
 about how to use the `dis` module to look at
 the bytecode for a function which you should totally read.
+<!-- more -->
 
 ## A few things I learned
 

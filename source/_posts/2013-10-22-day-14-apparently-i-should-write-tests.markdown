@@ -24,6 +24,8 @@ BUT! It turns out that when you're not sure exactly what your code is
 supposed to be doing or how to verify whether it's correct is *exactly
 when* it's the most helpful to write unit tests.
 
+<!-- more -->
+
 And Stefan suggested an awesome way to fix it a little bit: I took the
 C implementation of gunzip I was using as an example, put some print
 statements in the middle, and then I had some reference data to check one of

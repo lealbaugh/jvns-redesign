@@ -18,6 +18,8 @@ anecdotes. This is probably from 15-30 technical interviews / phone
 screens, across a bunch of tech companies of different sizes. (the
 number depends on how you count interviews)
 
+<!-- more -->
+
 ## Questions about my background
 
 Most people ask me variations on these questions:

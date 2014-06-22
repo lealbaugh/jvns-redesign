@@ -22,6 +22,8 @@ So here are some pretty "basic" things that my kernel can't do. I'm
 not trying to give an exhaustive list here, but a flavor for what's
 involved.
 
+<!-- more -->
+
 The idea is that once you know what a kernel does, you can pick a
 Thing and a Kernel, and then dive into it and ask "okay, what *is* the
 Linux kernel's system for tracking processes?". Then you can find this

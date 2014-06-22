@@ -24,6 +24,8 @@ someone to come over to your computer and talk about some code with
 you. Or a bug, or a design issue you're trying to work out. Pair
 programming is like that, but for longer (like an hour).
 
+<!-- more -->
+
 A few things I like about pairing:
 
 1. You can timebox your pairing sessions, and have a specific goal:

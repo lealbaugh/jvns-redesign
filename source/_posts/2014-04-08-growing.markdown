@@ -17,6 +17,8 @@ by [John Allspaw](http://www.kitchensoap.com/) at Etsy. I am mostly
 writing this so I can remember go back and read that repeatedly. It
 talks about
 
+<!-- more -->
+
 * taking and seeking out criticism and
 * non-technical skills and
 * estimates (eeep! so hard!) and

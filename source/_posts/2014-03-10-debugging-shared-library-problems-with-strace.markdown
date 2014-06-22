@@ -15,6 +15,8 @@ This doesn't sound so useful until you find out that it is useful FOR
 EVERYTHING. Seriously. strace is like an immersion blender. I use strace more
 than my immersion blender.
 
+<!-- more -->
+
 Previously we have used strace to 
 [find out how killall works](http://jvns.ca/blog/2013/12/22/fun-with-strace/), 
 [spy on ssh](http://jvns.ca/blog/2014/02/17/spying-on-ssh-with-strace/), 

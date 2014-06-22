@@ -19,6 +19,8 @@ anything".
 
 Some strategies I've been using:
 
+<!-- more -->
+
 ### 1. Being factual.
 
 If someone asks me how familiar I am with Linux, I *could* say "well,

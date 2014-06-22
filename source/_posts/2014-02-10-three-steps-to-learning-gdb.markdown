@@ -16,6 +16,8 @@ I'm going to explain a couple of small things you can do with `gdb`,
 because I found it really confusing to get started. We're going to set
 a breakpoint and examine some memory in a tiny program.
 
+<!-- more -->
+
 ### 1. Set breakpoints
 
 If you've ever used a debugger before, you've probably set a

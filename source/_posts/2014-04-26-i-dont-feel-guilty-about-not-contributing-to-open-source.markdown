@@ -20,6 +20,8 @@ I used to have this dialog with myself pretty often:
 * and it's in C! so many code! how do I even!
 * Give up, feel vaguely guilty
 
+<!-- more -->
+
 I'm trying to stop feeling guilty. Now if I'm going to contribute to a
 project, it needs to be something that I'm motivated to do.
 [Mel Chua](http://blog.melchua.com/) gave a great talk at Hacker

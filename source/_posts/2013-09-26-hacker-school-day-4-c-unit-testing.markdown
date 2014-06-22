@@ -18,6 +18,7 @@ string in C, so.
 
 I am also thinking of starting to write about coding on the internet, so
 here this is.
+<!-- more -->
 
 Today I decided to try implementing snake in C, using ncurses. This
 turned out to be easier than I thought it would be -- ncurses is pretty

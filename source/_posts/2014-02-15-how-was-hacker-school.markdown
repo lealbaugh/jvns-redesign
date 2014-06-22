@@ -20,6 +20,8 @@ their hands. He talked about how everyone who was there belongs, and
 we talked about things that we were excited and scared about. It was
 an amazing way to start.
 
+<!-- more -->
+
 Hacker School is *positive*. When I had a bug that I didn't understand
 and asked one of the facilitators to help me out, they would
 frequently say "Oh, *interesting*!". The attitude was "Oh, is

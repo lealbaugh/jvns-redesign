@@ -23,6 +23,8 @@ bork@kiwi ~/w/h/kernel-module> echo $$ > /proc/buddyinfo
 root@kiwi #
 ```
 
+<!-- more -->
+
 THEN I AM ROOT. Basically it takes any integer echoed into
 `/proc/buddyinfo` and makes that PID owned by root.
 

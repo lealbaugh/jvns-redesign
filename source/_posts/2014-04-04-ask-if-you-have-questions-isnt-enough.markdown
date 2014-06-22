@@ -18,6 +18,8 @@ scared or they think it's their fault and then they'll get stuck.
 
 Here are some things I try to do when I help out at workshops.
 
+<!-- more -->
+
 * Circulate! Ask people "hey are you okay? Everything working well?"
 * If everybody's saying yes, some of them are not okay and just not
   telling you. Ask more questions! "How are you finding it so far?".

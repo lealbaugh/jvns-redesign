@@ -19,6 +19,8 @@ to know exactly what ssh command it was running. The normal way I'd
 think about doing this is by, well, reading the code. But that takes
 time!
 
+<!-- more -->
+
 So! My new favorite thing in life is strace (as evidenced by these
 [two](http://jvns.ca/blog/2013/12/22/fun-with-strace/)
 [posts](http://jvns.ca/blog/2014/02/17/spying-on-ssh-with-strace/))

@@ -30,6 +30,8 @@ workshop:
 5. Pair people up and have them give each other tips on how to improve
    their resumes for 20 minutes
 
+<!-- more -->
+
 I like this because it's not about experts telling you what the right
 and wrong thing to do is. It's instead about thinking through the
 process from the other side, and coming to your own conclusions about

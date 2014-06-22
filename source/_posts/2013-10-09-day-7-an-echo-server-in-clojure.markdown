@@ -15,6 +15,7 @@ can't tell yet if this is an appropriate way to write a small Clojure
 program. Need to get some code review on this.
 
 But it works! You can see the code here: [https://gist.github.com/jvns/6910896](https://gist.github.com/jvns/6910896)
+<!-- more -->
 
 You can interact with the server using `netcat`
 (see also: [Day 2: netcat fun!](http://jvns.ca/blog/2013/10/01/day-2-netcat-fun/)).
@@ -32,5 +33,5 @@ this, you can use
 [lein-exec](https://github.com/kumarshantanu/lein-exec).
 
 This is the first step towards maybe writing a BitTorrent client in
-Clojure -- many other people are writing BitTorrent clients and really
+Clojure -- many other people are writing BitTorrent client and really
 enjoying it, and I'm jealous. We'll see if it happens!

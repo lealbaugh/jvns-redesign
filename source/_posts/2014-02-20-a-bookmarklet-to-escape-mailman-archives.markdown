@@ -19,6 +19,8 @@ all!" and pointed me to this super interesting
 [post to LLVMdev](http://lists.cs.uiuc.edu/pipermail/llvmdev/2011-October/043719.html)
 discussing that.
 
+<!-- more -->
+
 I read it, and then wanted to start reading some of the replies to get
 a better sense of the debate around this. But reading mailman archives
 is *terrible*! So I asked some people on Twitter how to fix it, and

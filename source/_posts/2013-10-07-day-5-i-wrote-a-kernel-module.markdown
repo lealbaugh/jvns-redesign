@@ -16,6 +16,7 @@ The source for the module is at
 It intercepts any incoming packets and prints "Hello packet" to the kernel
 log for each one. It uses a the Netfilter framework, which I learned
 about from [this document](http://kernelnewbies.org/Networking?action=AttachFile&do=get&target=hacking_the_wholism_of_linux_net.txt). 
+<!-- more -->
 
 To install it, you can run:
 

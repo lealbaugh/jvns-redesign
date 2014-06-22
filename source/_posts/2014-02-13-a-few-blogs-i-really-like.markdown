@@ -17,6 +17,8 @@ on distributed systems and Selena Deckelmann on Postgres and Sumana
 Harihareswara on community management and Seth Godin on marketing and
 Cathy O'Neil on finance and Raph Koster on game development.
 
+<!-- more -->
+
 * I just discovered that
   [Camille Fournier](http://whilefalse.blogspot.ca/) has a blog the
   other day and I started binge-reading it. She has a ton of systems

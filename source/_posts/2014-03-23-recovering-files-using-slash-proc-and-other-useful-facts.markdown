@@ -24,6 +24,8 @@ Let's explain why this works. When a process opens a file (including
 sockets), it gets a *file descriptor* for that file, which is a number
 starting at 0.
 
+<!-- more -->
+
 ### File descriptors and investigations on std{in,out,err}
 
 

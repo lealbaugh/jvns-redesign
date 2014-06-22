@@ -19,6 +19,7 @@ a lot like Python!
 The document I'm using to understand how gzip works is
 [this really detailed and wonderful page](http://www.infinitepartitions.com/art001.html).
 So if you actually want to know you should just read that.
+<!-- more -->
 
 The basic idea behind gzip is
 

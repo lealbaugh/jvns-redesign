@@ -20,6 +20,7 @@ Here are the systems we came up with, in no particular order:
   wireless cards, etc.)
 * starting processes
 * thread scheduling
+<!-- more -->
 * filesystems (ext3, ext4, reiserfs, fat32, etc.)
 * VFS: interface that lets you get files no matter what filesystem
   you're using

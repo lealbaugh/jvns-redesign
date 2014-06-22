@@ -18,6 +18,7 @@ I'm less than halfway through so far, but I really like this:
 > with a different set of privileges and life experiences. And once we
 > acknowledge that fact, it will become obvious that when we try to place
 > all women into the same box, we unintentionally suffocate ourselves.
+<!-- more -->
 
 This is so obvious ("all women are different, and do tons of different
 things! And all of those things are okay!"), but so easy to forget. Also

@@ -18,6 +18,8 @@ But I wasn't quite sure how to get started! I knew how to navigate the
 filesystem from the command line (`hadoop fs -ls /`, and friends), but
 not how to figure out how it works internally.
 
+<!-- more -->
+
 [Colin Marc](http://twitter.com/colinmarc) pointed me to this great
 library called [snakebite](https://github.com/spotify/snakebite) which
 is a Python HDFS client. In particular he pointed me to the part of

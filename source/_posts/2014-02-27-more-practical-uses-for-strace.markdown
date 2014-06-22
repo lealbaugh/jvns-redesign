@@ -25,6 +25,8 @@ worth a read.
 
 Some more great suggestions of what to do with strace:
 
+<!-- more -->
+
 Look for the 'open' system call!
 
 <blockquote class="twitter-tweet" lang="en"><p><a

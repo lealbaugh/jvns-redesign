@@ -16,6 +16,7 @@ According to [http://julialang.org](http://julialang.org), Julia is a
 "high-level, high-performance dynamic programming language for
 technical computing". If you want actual explanations  of what Julia is
 and how it works, there is pretty good documentation there.
+<!-- more -->
 
 I've been programming in Julia for about a week now. So now is a good
 time to share my Extreme Julia Expertise. Hopefully someone will correct

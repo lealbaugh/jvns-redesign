@@ -14,6 +14,8 @@ bit. Here's what I understood:
 Processes each have their own PID and *address space*, threads share the
 PID and address space of a single process.
 
+<!-- more -->
+
 What is *address space*?
 ------------------------
 

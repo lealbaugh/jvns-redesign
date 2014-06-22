@@ -23,6 +23,8 @@ already done this before. So I googled it and I found this
 [blog post explaining how to spy on ssh](http://pentestmonkey.net/blog/sshd-snooping).
 The instructions here are just taken from there :)
 
+<!-- more -->
+
 The reason this is possible is that strace doesn't just tell you which
 system calls a given program is running. It also tells you what the
 arguments are! So if a program ever calls a function with a password

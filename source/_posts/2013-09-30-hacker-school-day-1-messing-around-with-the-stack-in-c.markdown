@@ -15,6 +15,7 @@ right now. She is fantastic and taught me tons of things about C.
 
 When trying to tokenize strings in our shell, we ran into a super
 unintuitive bug.  Here's the [gist](https://gist.github.com/jvns/6772832) of it:
+<!-- more -->
 
 ```c
 #include <stdio.h>

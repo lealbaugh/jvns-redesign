@@ -15,6 +15,8 @@ that I did not know! But they were all in San Francisco, and I didn't
 want to move there at all. They convinced me that if I worked remote
 it might not be a disaster.
 
+<!-- more -->
+
 I was still pretty scared about working remote, though! So far it's
 been hard, but I'm learning how to do it better. I'm somewhat
 extroverted, so it's possible for me to go a bit stir-crazy sitting

@@ -24,6 +24,8 @@ organizers is to have
 
 Let's talk about whether anonymous review will help us with these things!
 
+<!-- more -->
+
 ## Is anonymous review less biased?
 
 **Yes.** 

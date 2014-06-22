@@ -25,6 +25,8 @@ what if you wanted to know
 `strace` only does system calls, and none of those things are system
 calls. So it can't tell you any of those things!
 
+<!-- more -->
+
 `perf` is a Linux tool that can tell you all of these things, and
 more! Let's run a quick example on the
 [bytesum program from yesterday](http://jvns.ca/blog/2014/05/12/computers-are-fast/).

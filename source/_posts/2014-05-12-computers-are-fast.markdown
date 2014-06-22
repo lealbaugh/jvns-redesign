@@ -24,6 +24,8 @@ This was basically the easiest task that I could think of that
 involved processing the entire file (so nothing gets optimized out by
 the compiler).
 
+<!-- more -->
+
 ### Step 1: Write a program to add up all the bytes
 
 I wrote a small C program to add up all the bytes in a file. It's
