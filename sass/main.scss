@@ -1,0 +1,164 @@
+@import "base";
+
+$cornerradius: 20px;
+
+html {
+	width:100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: $bg;
+	color: $textcolor;
+}
+
+body {
+	width:50%;
+	margin:0 auto;
+	background-color: $bg;
+}
+
+body > header {
+	margin:0px;
+	padding:0px;
+	background-color: $fg;
+	float:left;
+	width:100%;
+	
+	hgroup {
+		padding: 3em 0em 2em 2em;
+		float:left;
+	}
+
+	.header-navigation {
+		margin: 0px;
+		padding: 1em;
+		float:right;
+
+		list-style-type: none;
+		text-align: right;
+
+		a {
+			color: $textcolor;
+		}
+		li {
+			margin: 0px;
+			padding: 0px;
+		}
+	}
+}
+
+nav {
+	margin:0px;
+	padding:0px;
+	clear:both;
+
+  	text-align: right;
+	color: $fg;
+	background-color: $lightorange;
+	li, form, fieldset, ul {
+		display: inline;
+	}
+	a {
+		color: $fg;
+	}
+	fieldset {
+		vertical-align: bottom;
+		margin: 0px 5px;
+	}
+	ul {
+		margin: 0px;
+	}
+}
+
+article {
+	background-color: $fg;
+	padding: 2em 3em;
+
+	& > header {
+		h1 {
+			margin-bottom: 0px;
+			margin-top: 0px;
+		}
+		border-bottom: 1px $textcolor solid;
+		margin-bottom: 1em;
+	}
+	.meta {
+
+	}
+	ul {
+		list-style-type: circle;
+		margin-left: 2em;
+	}
+	@include round-corner("bottom-left", $cornerradius);
+	@include round-corner-mozilla("bottomleft", $cornerradius);
+
+	& > footer {
+		margin-top: 1.5em;
+		padding-top: 0.5em;
+		border-top: 1px $textcolor solid;
+	}
+}
+
+article + article {
+	margin-top: 1.5em;
+	@include round-corner("top-left", $cornerradius);
+	@include round-corner-mozilla("topleft", $cornerradius);
+}
+
+article:last-of-type {
+	@include round-corner("bottom-left", 0);
+	@include round-corner-mozilla("bottomleft", 0);
+}
+
+section {
+	background-color: $fg;
+	padding: 0em 3em 2em 3em;
+}
+
+
+
+body > footer {
+	margin: 0px;
+	padding: 1em 2em;
+	text-align: center;
+	background-color: $fg;
+	p {
+		margin: 0px;
+	}
+}
+
+.sharing {
+	/*display:inline;*/
+}
+
+.meta {
+	/*display: inline;*/
+}
+
+nav, .pagination {
+	background-color: $lightorange;
+	a {
+		color: $fg;
+	}
+	padding: 0.3em;
+}
+
+.pagination {
+	clear: both;
+	text-align: center;
+	margin: 0 auto;
+	.prev {
+		float:left;
+	}
+	.next {
+		float:right;
+	}
+}
+
+
+#main, #content {
+	width:100%;
+}
+
+img {
+	max-width: 100%;
+}
