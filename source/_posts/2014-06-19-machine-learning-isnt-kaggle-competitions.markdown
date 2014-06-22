@@ -12,7 +12,9 @@ started writing about it! Disclaimer: I work on a data analysis /
 engineering team at a tech company, so that's where I'm coming from.
 
 When I started trying to get better at machine learning, I went to
-[Kaggle](http://www.kaggle.com/) and tried out one of the classification problems. I used an
+[Kaggle](http://www.kaggle.com/) (a site where you compete to solve
+machine learning problems) and tried out one of the classification
+problems. I used an
 out-of-the-box algorithm, messed around a bit, and definitely did not
 make the leaderboard. I felt sad and demoralized -- what if I
 was really bad at this and never got to do math at work?! I still 
@@ -140,3 +142,11 @@ models' performance once they're in production, for instance!
 So if you look at Kaggle leaderboards and think that you're bad at
 machine learning because you're not doing well, don't. It's a fun but
 artificial problem that doesn't reflect real machine learning work.
+
+(to be clear: I don't think that Kaggle misrepresents itself, or does
+a bad job -- it specializes in a particular thing and that's fine. But
+when I was starting out, I thought that machine learning work would be
+like Kaggle competitions, and it's not.)
+
+(thanks to the fantastic [Alyssa Frazee](http://alyssafrazee.com/) for
+helping with drafts of this!)
