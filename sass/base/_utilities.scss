@@ -26,3 +26,21 @@
   @return $text-color;
 }
 
+/*Rounded corners from https://gist.github.com/victorbstan/889463*/
+$default_rounded_amount: 5px;
+// Round corner at position by amount.
+@mixin round-corner($position, $amount: $default_rounded_amount) {
+  border-#{$position}-radius: $amount;
+  -webkit-border-#{$position}-radius: $amount;
+}
+  
+@mixin round-corner-mozilla($position, $amount: $default_rounded_amount) {
+  -moz-border-radius-#{$position}: $amount;
+}
+ 
+// Round all corners by amount
+@mixin round-corners($amount: $default_rounded_amount) {
+  border-radius: $amount;
+  -moz-border-radius: $amount;
+  -webkit-border-radius: $amount;
+}
