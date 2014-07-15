@@ -25,7 +25,7 @@ body {
 	height: 100%;
 	min-height: 100%;
 	border: 1px red solid;
-	height: auto !important;
+	height: auto;
 }
 
 #wrap > header {
@@ -33,7 +33,7 @@ body {
 	float:left;
 	width:100%;
 
-	margin-right: 10px;
+	padding-right: 35px;
 
 	border-left-width:35px;
 	border-image: url("stripes.png") 0 0 0 35 repeat;
@@ -142,9 +142,47 @@ article {
 	@include round-corner-mozilla("bottomleft", $cornerradius);
 
 	& > footer {
+		display: block;
+		position: relative;
 		margin-top: 1.5em;
 		padding-top: 0.5em;
 		border-top: 1px $textcolor solid;
+		.meta {
+			position: relative;
+			.basic-alignment {
+				display:inline-block;
+				width: 50%;
+				display: block;
+				min-height: 2.5em;
+			}
+			.left {
+				position: relative;
+				left: 0px;
+				padding-left: 13px;
+				&:before {
+					content:"\00ab";
+					width: 0px;
+					height: 0px;
+					position: absolute;
+					left: 0px;
+				}
+			}
+
+			.right {
+				text-align: right;
+				position: absolute;
+				right: 0px;
+				top: 0px;
+				padding-right: 5px;
+				&:before {
+					content:"\00bb";
+					width: 0px;
+					height: 0px;
+					position: absolute;
+					right: 0px;
+				}
+			}
+		}
 	}
 }
 
@@ -171,15 +209,7 @@ article:last-of-type {
 	margin: 0px 1em 0px 2.9em;
 	color: $bg;
 	position: relative;
-	/*border: 1px red solid;*/
-/*	time {
-		display:inline;
-		.day {
-			&:after {
-				content: ",";
-			}
-		}
-	}*/
+
 	time {
 	      /*position: relative;*/
 	      text-align: right;
@@ -189,8 +219,6 @@ article:last-of-type {
 	      	display: none;
 	      }
 	    }
-
-   
 
 	footer {
 		display:inline;
@@ -236,7 +264,7 @@ section {
 
 .sharing {
 	text-align: center;
-	margin: 0em auto;
+	margin: 0em auto 0.5em;
 	/*display:inline;*/
 }
 
@@ -276,6 +304,7 @@ nav, .pagination {
 #content {
 	/*content:url("stripes.png");*/
 	border-right-width:35px;
+	padding-left: 35px;
 	border-image: url("stripes.png") 0 35 0 0 repeat;
 	height: 100%;
 	min-height: 100%;
