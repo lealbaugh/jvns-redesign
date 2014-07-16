@@ -158,13 +158,13 @@ article {
 			.left {
 				position: relative;
 				left: 0px;
-				padding-left: 13px;
+				padding-left: 0px;
 				&:before {
 					content:"\00ab";
 					width: 0px;
 					height: 0px;
 					position: absolute;
-					left: 0px;
+					left: -0.8em;
 				}
 			}
 
@@ -173,13 +173,13 @@ article {
 				position: absolute;
 				right: 0px;
 				top: 0px;
-				padding-right: 5px;
+				padding-right: 0px;
 				&:before {
 					content:"\00bb";
 					width: 0px;
 					height: 0px;
 					position: absolute;
-					right: 0px;
+					right: -0.3em;
 				}
 			}
 		}
