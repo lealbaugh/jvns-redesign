@@ -73,7 +73,7 @@ body {
 		}
 	}
 	
-	.header-navigation {
+	.header-links {
 		
 		list-style-type: none;
 		margin: 0px;
@@ -82,13 +82,13 @@ body {
 		}
 		
 		@media screen and (min-width: 866px) {
-			padding: 1em;
 			text-align: right;
 
 			display: inline-block;
 			position: absolute;
 			right: 0px;
 			top: 0px;
+			margin: 1em 35px;
 
 			li {
 				margin: 0px;
@@ -115,11 +115,11 @@ body {
 /*865px should switch header nav to inline*/
 
 nav {
-  	text-align: right;
+	
 	color: $fg;
 	background-color: $lightorange;
 	height: 35px;
-
+	padding: 0.5em 35px;
 
 	li, form, fieldset, ul {
 		display: inline;
@@ -127,10 +127,13 @@ nav {
 	a {
 		color: $fg;
 	}
-/*	fieldset {
-		vertical-align: bottom;
-		margin: 0px 5px;
-	}*/
+
+	.prev {
+		float:left;
+	}
+	.next {
+		float:right;
+	}
 
 	ul {
 		display: inline-block;
@@ -141,10 +144,12 @@ nav {
 			padding: 0 0.5em;
 		}
 	}
+}
 
+.header-nav {
+	text-align: right;
 	@media screen and (min-width: 531px){
 		margin:0px 35px;
-		/*display: block;*/
 		clear:both;
 		position: relative;
 
@@ -166,6 +171,37 @@ nav {
 		    height: 0;
 		    position: absolute;
 		    right:-35px;
+		    bottom: 0px;
+		    border: 35px solid;
+		    border-color: transparent transparent $lightorange transparent;   
+		}
+	}
+}
+.footer-nav {
+	text-align: center;
+	@media screen and (min-width: 531px){
+		margin:0px 35px;
+		clear:both;
+		position: relative;
+
+		&:before {
+			content: '';
+		    display: block;
+		    width: 0;
+		    height: 0;
+		    position: absolute;
+		    right:-35px;
+		    top: 0px;
+		    border: 35px solid;
+		    border-color: $lightorange transparent transparent transparent;   
+		}
+		&:after {
+			content: '';
+		    display: block;
+		    width: 0;
+		    height: 0;
+		    position: absolute;
+		    left:-35px;
 		    bottom: 0px;
 		    border: 35px solid;
 		    border-color: transparent transparent $lightorange transparent;   
@@ -326,26 +362,15 @@ section {
 	/*display: inline;*/
 }
 
-nav, .pagination {
-	background-color: $lightorange;
-	a {
-		color: $fg;
-	}
-	padding: 0.3em 35px;
-}
 
-.pagination {
+
+/*.pagination {
 	clear: both;
 	text-align: center;
 	margin: 0 auto;
-	.prev {
-		float:left;
-	}
-	.next {
-		float:right;
-	}
+	
 }
-
+*/
 
 #main, #content {
 	display: block;

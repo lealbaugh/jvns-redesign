@@ -1,0 +1,7 @@
+    {% if paginator.next_page %}
+      <a class="prev" href="{{ root_url }}{{paginator.next_page}}">Older</a>
+    {% endif %}
+    <a href="{{ root_url }}/blog/archives">Archives</a>
+    {% if paginator.previous_page %}
+    <a class="next" href="{{ root_url }}{{paginator.previous_page}}">Newer</a>
+    {% endif %}
