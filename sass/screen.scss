@@ -34,7 +34,7 @@ body {
 #wrap {
 	width:70%;
 	max-width: 45em;
-	/*min-width: 495px;*/
+	
 	@media screen and (max-width: 865px)
 	{
 		width:100%;
@@ -155,7 +155,6 @@ body {
 	}
 
 }
-/*865px should switch header nav to inline*/
 
 nav {
 	@include dropshadow;
@@ -165,6 +164,9 @@ nav {
 
 	height: 35px;
 	padding: 0.5em 35px;
+	@media screen and (max-width: $smallest-width){
+		padding:0.5em 15px;
+	}
 
 	li, form, fieldset, ul {
 		display: inline;
@@ -413,7 +415,6 @@ section {
 .sharing {
 	text-align: center;
 	margin: 0em auto 0.5em;
-	/*display:inline;*/
 }
 
 .meta {
