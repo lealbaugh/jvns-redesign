@@ -1,4 +1,10 @@
-@import "base";
+@import "base/reset";
+@import "base/colors";
+
+@import "base/utilities";
+@import "base/solarized";
+@import "base/typography";
+@import "base/syntax";
 
 $cornerradius: 20px;
 
@@ -14,14 +20,22 @@ html {
 }
 
 body {
-	width:50%;
-	margin:0 auto;
-	/*background-color: $bg;*/
+	width:100%;
 	height: 100%;
 	min-height: 100%;
 }
 
 #wrap {
+	width:70%;
+	max-width: 45em;
+	min-width: 495px;
+	@media screen and (max-width: 865px)
+	{
+		width:100%;
+	}
+
+	margin:0 auto;
+
 	height: 100%;
 	min-height: 100%;
 	border: 1px red solid;
@@ -30,48 +44,82 @@ body {
 
 #wrap > header {
 	background-color: $fg;
-	float:left;
-	width:100%;
-
-	padding-right: 35px;
-
-	border-left-width:35px;
-	border-image: url("stripes.png") 0 0 0 35 repeat;
-
-	position: relative;
 	
+	display: block;
+	position: relative;
+
+	height: 140px;
+	margin-right: 35px;
+
+	@media screen and (min-width: 531px){
+		border-left-width:35px;
+		border-image: url("stripes.png") 0 0 0 35 repeat;
+	}
+	
+	
+	
+
 	hgroup {
 		padding: 3em 0em 2em 2em;
-		float:left;
+		display: inline-block;
 	}
+	
 
+	@media screen and (min-width: 866px) {
+		/*float:left;*/
+		hgroup {
+			padding: 3em 0em 2em 2em;
+			/*float:left;*/
+		}
+	}
+	
 	.header-navigation {
-		margin: 0px;
-		padding: 1em;
-		float:right;
-
+		
 		list-style-type: none;
-		text-align: right;
-
+		margin: 0px;
 		a {
 			color: $textcolor;
 		}
-		li {
-			margin: 0px;
-			padding: 0px;
+		
+		@media screen and (min-width: 866px) {
+			padding: 1em;
+			text-align: right;
+
+			display: inline-block;
+			position: absolute;
+			right: 0px;
+			top: 0px;
+
+			li {
+				margin: 0px;
+				padding: 0px;
+			}
+		}
+
+		@media screen and (max-width: 865px) {
+			display: block;
+			position: relative;
+
+			margin-left: 2em;
+			padding: 1em 0em;
+			li {
+				display: inline;
+			}
+			li + li:before{
+				content:"/";
+				margin-right: 0.25em;
+			}
 		}
 	}
 }
+/*865px should switch header nav to inline*/
 
 nav {
-	margin:0px 35px;
-	display: block;
-	clear:both;
-	position: relative;
-
   	text-align: right;
 	color: $fg;
 	background-color: $lightorange;
+	height: 35px;
+
 
 	li, form, fieldset, ul {
 		display: inline;
@@ -79,16 +127,29 @@ nav {
 	a {
 		color: $fg;
 	}
-	fieldset {
+/*	fieldset {
 		vertical-align: bottom;
 		margin: 0px 5px;
-	}
+	}*/
+
 	ul {
+		display: inline-block;
+		vertical-align: middle;
 		margin: 0px;
+		li + li:before {
+			content: '\2605';
+			padding: 0 0.5em;
+		}
 	}
 
-	&:before {
-		content: '';
+	@media screen and (min-width: 531px){
+		margin:0px 35px;
+		/*display: block;*/
+		clear:both;
+		position: relative;
+
+		&:before {
+			content: '';
 		    display: block;
 		    width: 0;
 		    height: 0;
@@ -97,9 +158,9 @@ nav {
 		    top: 0px;
 		    border: 35px solid;
 		    border-color: $lightorange transparent transparent transparent;   
-	}
-	&:after {
-		content: '';
+		}
+		&:after {
+			content: '';
 		    display: block;
 		    width: 0;
 		    height: 0;
@@ -108,12 +169,8 @@ nav {
 		    bottom: 0px;
 		    border: 35px solid;
 		    border-color: transparent transparent $lightorange transparent;   
+		}
 	}
-	/*
-	border-right-width:35px;
-	border-left-width:35px;
-	-webkit-mask-box-image: url('corners.png') 0 34 0 34 stretch stretch;*/
-	/*border-image: url("corners.png") 0 35 0 35 repeat;*/
 }
 
 article {
@@ -251,13 +308,10 @@ section {
 
 
 #wrap > footer {
-	margin: 0px;
+	margin: 0px 35px;
 	padding: 1em 2em;
 	text-align: center;
 	background-color: $fg;
-	p {
-		margin: 0px;
-	}
 	position: relative;
 	bottom: 0px;
 }
@@ -302,10 +356,12 @@ nav, .pagination {
 }
 
 #content {
-	/*content:url("stripes.png");*/
-	border-right-width:35px;
-	padding-left: 35px;
-	border-image: url("stripes.png") 0 35 0 0 repeat;
+	@media screen and (min-width: 531px){
+		border-right-width:35px;
+		padding-left: 35px;
+		border-image: url("stripes.png") 0 35 0 0 repeat;
+	}
+	
 	height: 100%;
 	min-height: 100%;
 }
