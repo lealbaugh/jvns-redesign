@@ -6,7 +6,13 @@
 @import "base/typography";
 @import "base/syntax";
 
-$cornerradius: 20px;
+$cornerradius: 10px;
+
+$smallest-width: 531px;
+
+@mixin dropshadow {
+	box-shadow: 0 0 0em $shadow;
+}
 
 html {
 	width:100%;
@@ -28,7 +34,7 @@ body {
 #wrap {
 	width:70%;
 	max-width: 45em;
-	min-width: 495px;
+	/*min-width: 495px;*/
 	@media screen and (max-width: 865px)
 	{
 		width:100%;
@@ -38,33 +44,35 @@ body {
 
 	height: 100%;
 	min-height: 100%;
-	border: 1px red solid;
+	/*border: 1px red solid;*/
 	height: auto;
 }
 
 #wrap > header {
 	background-color: $fg;
+	@include round-corner("top-right", $cornerradius);
+	@include round-corner-mozilla("topright", $cornerradius);
+	@include dropshadow;
+
 	
 	display: block;
 	position: relative;
 
 	height: 140px;
-	margin-right: 35px;
 
-	@media screen and (min-width: 531px){
+	@media screen and (min-width: $smallest-width){
 		border-left-width:35px;
 		border-image: url("stripes.png") 0 0 0 35 repeat;
+		margin-right: 35px;
 	}
 	
-	
-	
+
 
 	hgroup {
 		padding: 3em 0em 2em 2em;
 		display: inline-block;
 	}
 	
-
 	@media screen and (min-width: 866px) {
 		/*float:left;*/
 		hgroup {
@@ -73,8 +81,14 @@ body {
 		}
 	}
 	
+	@media screen and (max-width: $smallest-width){
+		hgroup {
+			font-size: 0.75em;
+		}
+	}
+	
+
 	.header-links {
-		
 		list-style-type: none;
 		margin: 0px;
 		a {
@@ -83,7 +97,6 @@ body {
 		
 		@media screen and (min-width: 866px) {
 			text-align: right;
-
 			display: inline-block;
 			position: absolute;
 			right: 0px;
@@ -96,28 +109,60 @@ body {
 			}
 		}
 
-		@media screen and (max-width: 865px) {
+		@media screen and (max-width: 865px) and (min-width: $smallest-width){
 			display: block;
 			position: relative;
-
 			margin-left: 2em;
-			padding: 1em 0em;
+			padding: 0.25em 0em;
+
 			li {
 				display: inline;
 			}
 			li + li:before{
+				/*color: $bg;*/
 				content:"/";
 				margin-right: 0.25em;
 			}
+			span + span:before{
+				/*color: $bg;*/
+				content:"/";
+				margin-right: 0.25em;
+			}
+
 		}
+		@media screen and (max-width: $smallest-width){
+			display: block;
+			position: relative;
+			margin-left: 2em;
+			padding: 0.25em 0em;
+
+			li {
+				display: inline;
+			}
+			li + li:before{
+				/*color: $bg;*/
+				content:"/";
+				margin-right: 0.25em;
+			}
+			
+			span {
+				font-size: 1.15em;
+				display: block;
+			}
+
+		}
+
 	}
+
 }
 /*865px should switch header nav to inline*/
 
 nav {
-	
+	@include dropshadow;
 	color: $fg;
 	background-color: $lightorange;
+	z-index: 1500;
+
 	height: 35px;
 	padding: 0.5em 35px;
 
@@ -148,7 +193,7 @@ nav {
 
 .header-nav {
 	text-align: right;
-	@media screen and (min-width: 531px){
+	@media screen and (min-width: $smallest-width){
 		margin:0px 35px;
 		clear:both;
 		position: relative;
@@ -179,7 +224,7 @@ nav {
 }
 .footer-nav {
 	text-align: center;
-	@media screen and (min-width: 531px){
+	@media screen and (min-width: $smallest-width){
 		margin:0px 35px;
 		clear:both;
 		position: relative;
@@ -211,7 +256,7 @@ nav {
 
 article {
 	background-color: $fg;
-	padding: 2em 3em;
+	padding: 2em 2.5em;
 
 	& > header {
 		h1 {
@@ -233,6 +278,7 @@ article {
 	}
 	@include round-corner("bottom-left", $cornerradius);
 	@include round-corner-mozilla("bottomleft", $cornerradius);
+	@include dropshadow;
 
 	& > footer {
 		display: block;
@@ -280,7 +326,7 @@ article {
 }
 
 article + article {
-	margin-top: 1.5em;
+	margin-top: 0.55em;
 	@include round-corner("top-left", $cornerradius);
 	@include round-corner-mozilla("topleft", $cornerradius);
 }
@@ -344,12 +390,24 @@ section {
 
 
 #wrap > footer {
-	margin: 0px 35px;
+	@media screen and (min-width: $smallest-width){
+		margin: 0px 35px;
+	}
+	
 	padding: 1em 2em;
 	text-align: center;
 	background-color: $fg;
 	position: relative;
 	bottom: 0px;
+
+	span {
+		display:block;
+	}
+
+	@include round-corner("bottom-left", $cornerradius);
+	@include round-corner-mozilla("bottomleft", $cornerradius);
+	@include dropshadow;
+
 }
 
 .sharing {
@@ -363,15 +421,6 @@ section {
 }
 
 
-
-/*.pagination {
-	clear: both;
-	text-align: center;
-	margin: 0 auto;
-	
-}
-*/
-
 #main, #content {
 	display: block;
 	width:100%;
@@ -381,7 +430,7 @@ section {
 }
 
 #content {
-	@media screen and (min-width: 531px){
+	@media screen and (min-width: $smallest-width){
 		border-right-width:35px;
 		padding-left: 35px;
 		border-image: url("stripes.png") 0 35 0 0 repeat;
