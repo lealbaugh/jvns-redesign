@@ -14,6 +14,20 @@ $smallest-width: 531px;
 	box-shadow: 0 0 0em $shadow;
 }
 
+/*border-image: url("stripes.png") 0 0 0 35 repeat;*/
+/*@include border-image("stripes.png", 0, 0, 0, 35, repeat)*/
+
+@mixin border-image ($URL, $top, $right, $bottom, $left, $repeat) {
+	-moz-border-image:url($URL) $top $right $bottom $left $repeat; /* Old firefox */
+	-webkit-border-image:url($URL) $top $right $bottom $left $repeat; /* Safari */
+	-o-border-image:url($URL) $top $right $bottom $left $repeat; /* Opera */
+	border-image:url($URL) $top $right $bottom $left $repeat;
+}
+
+* {
+	box-sizing: border-box;
+}
+
 html {
 	width:100%;
 	height: 100%;
@@ -34,7 +48,7 @@ body {
 #wrap {
 	width:70%;
 	max-width: 45em;
-	
+
 	@media screen and (max-width: 865px)
 	{
 		width:100%;
@@ -62,7 +76,9 @@ body {
 
 	@media screen and (min-width: $smallest-width){
 		border-left-width:35px;
-		border-image: url("stripes.png") 0 0 0 35 repeat;
+		border-left-color: $darkorange;
+		border-left-style: solid;
+		@include border-image("stripes.png", 0, 0, 0, 35, repeat);
 		margin-right: 35px;
 	}
 	
@@ -433,8 +449,9 @@ section {
 #content {
 	@media screen and (min-width: $smallest-width){
 		border-right-width:35px;
+		border-right-style: solid;
 		padding-left: 35px;
-		border-image: url("stripes.png") 0 35 0 0 repeat;
+		@include border-image("stripes.png", 0, 35, 0, 0, repeat);
 	}
 	
 	height: 100%;
