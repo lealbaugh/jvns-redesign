@@ -203,8 +203,11 @@ nav {
 		vertical-align: middle;
 		margin: 0px;
 		li + li:before {
-			content: '\2605';
+			/*content: '\2605';*/
+			content: url("star.svg");
 			padding: 0 0.5em;
+			fill: $fg;
+			vertical-align: middle;
 		}
 	}
 }
