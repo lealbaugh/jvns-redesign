@@ -11,11 +11,9 @@ $cornerradius: 10px;
 $smallest-width: 531px;
 
 @mixin dropshadow {
-	box-shadow: 0 0 0em $shadow;
+	/*box-shadow: 0 0 0em $shadow;*/
 }
 
-/*border-image: url("stripes.png") 0 0 0 35 repeat;*/
-/*@include border-image("stripes.png", 0, 0, 0, 35, repeat)*/
 
 @mixin border-image ($URL, $top, $right, $bottom, $left, $repeat) {
 	-moz-border-image:url($URL) $top $right $bottom $left $repeat; /* Old firefox */
@@ -55,11 +53,26 @@ body {
 	}
 
 	margin:0 auto;
-
-	height: 100%;
+	position: relative;
 	min-height: 100%;
 	/*border: 1px red solid;*/
 	height: auto;
+}
+
+#main {
+	@media screen and (min-width: $smallest-width){
+		border-right-width:35px;
+		border-right-style: solid;
+		padding-left: 35px;
+		@include border-image("stripes.png", 0, 35, 0, 0, repeat);
+	}
+	min-height:100%;
+	height: auto;
+}
+
+#content {
+	height: auto;
+	min-height: 100%;
 }
 
 #wrap > header {
@@ -135,12 +148,10 @@ body {
 				display: inline;
 			}
 			li + li:before{
-				/*color: $bg;*/
 				content:"/";
 				margin-right: 0.25em;
 			}
 			span + span:before{
-				/*color: $bg;*/
 				content:"/";
 				margin-right: 0.25em;
 			}
@@ -156,7 +167,6 @@ body {
 				display: inline;
 			}
 			li + li:before{
-				/*color: $bg;*/
 				content:"/";
 				margin-right: 0.25em;
 			}
@@ -204,8 +214,10 @@ nav {
 		margin: 0px;
 		li + li:before {
 			/*content: '\2605';*/
+			/*unfortunately the unicode star is inconsistently supported, so here's an svg one instead.
+			Ideally, some sort of svg icon thing might be better?*/
 			content: url("star.svg");
-			padding: 0 0.5em;
+			padding: 0 0.5em 0 0.25em;
 			fill: $fg;
 			vertical-align: middle;
 		}
@@ -278,6 +290,9 @@ nav {
 article {
 	background-color: $fg;
 	padding: 2em 2.5em;
+
+	min-height: 100%;
+	height: auto;
 
 	& > header {
 		h1 {
@@ -436,30 +451,6 @@ section {
 	margin: 0em auto 0.5em;
 }
 
-.meta {
-	/*display: inline;*/
-}
-
-
-#main, #content {
-	display: block;
-	width:100%;
-	height: 100%;
-	min-height: 100%;
-	/*height: auto !important;*/
-}
-
-#content {
-	@media screen and (min-width: $smallest-width){
-		border-right-width:35px;
-		border-right-style: solid;
-		padding-left: 35px;
-		@include border-image("stripes.png", 0, 35, 0, 0, repeat);
-	}
-	
-	height: 100%;
-	min-height: 100%;
-}
 
 img {
 	max-width: 100%;
